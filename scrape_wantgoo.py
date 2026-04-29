@@ -1,213 +1,225 @@
 """
 Scrape WantGoo shareholders meeting souvenir data.
 
-The WantGoo page is rendered by JavaScript. On GitHub Actions, waiting for
-"networkidle" can time out because analytics/ad requests may keep the network
-busy. This scraper waits for DOM content, then waits for the rendered table
-selectors with graceful fallbacks.
+WantGoo now loads the table from JSON APIs. Scraping the rendered table is
+fragile on GitHub Actions, so this script reads the same API data directly and
+keeps a Playwright-free workflow.
 """
 
 from __future__ import annotations
 
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
-from bs4 import BeautifulSoup
-
-try:
-    from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
-    from playwright.sync_api import sync_playwright
-
-    PLAYWRIGHT_OK = True
-except ImportError:
-    PlaywrightTimeoutError = Exception
-    sync_playwright = None
-    PLAYWRIGHT_OK = False
+import requests
 
 
-PAGE_URL = "https://www.wantgoo.com/stock/calendar/shareholders-meeting-souvenirs?year={year}"
+YEAR = 2026
+BASE_URL = "https://www.wantgoo.com"
+PAGE_URL = f"{BASE_URL}/stock/calendar/shareholders-meeting-souvenirs?year={{year}}"
+DATA_URL = f"{BASE_URL}/stock/calendar/all-shareholders-meeting-souvenirs-data?year={{year}}"
+INVESTRUE_URL = f"{BASE_URL}/investrue/all-alive"
+HOLIDAY_URL = f"{BASE_URL}/global/all-holiday-data"
 OUTPUT_DIR = Path("data")
 
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+    "Referer": PAGE_URL.format(year=YEAR),
+}
 
-def _text(node: Any) -> str:
-    return node.get_text(" ", strip=True) if node else ""
+CITY_NAMES = [
+    "\u53f0\u5317",
+    "\u81fa\u5317",
+    "\u65b0\u5317",
+    "\u57fa\u9686",
+    "\u65b0\u7af9",
+    "\u6843\u5712",
+    "\u5b9c\u862d",
+    "\u53f0\u4e2d",
+    "\u81fa\u4e2d",
+    "\u5f70\u5316",
+    "\u5357\u6295",
+    "\u82d7\u6817",
+    "\u96f2\u6797",
+    "\u53f0\u5357",
+    "\u81fa\u5357",
+    "\u9ad8\u96c4",
+    "\u5c4f\u6771",
+    "\u6f8e\u6e56",
+    "\u5609\u7fa9",
+    "\u53f0\u6771",
+    "\u81fa\u6771",
+    "\u82b1\u84ee",
+]
 
-
-def _cmodel(row: Any, name: str) -> str:
-    cell = row.find("td", attrs={"c-model": name})
-    return _text(cell)
-
-
-def _save_debug_html(html: str, year: int) -> Path:
-    OUTPUT_DIR.mkdir(exist_ok=True)
-    path = OUTPUT_DIR / f"wantgoo_debug_{year}.html"
-    path.write_text(html, encoding="utf-8")
-    print(f"Saved debug HTML: {path}")
-    return path
-
-
-def _get_rendered_html(year: int) -> str:
-    if not PLAYWRIGHT_OK or sync_playwright is None:
-        raise RuntimeError(
-            "Playwright is not installed. Run: pip install playwright && playwright install chromium"
-        )
-
-    url = PAGE_URL.format(year=year)
-    print(f"Opening WantGoo page: {url}")
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=["--disable-dev-shm-usage", "--no-sandbox"],
-        )
-        page = browser.new_page(
-            locale="zh-TW",
-            timezone_id="Asia/Taipei",
-            viewport={"width": 1440, "height": 1200},
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36"
-            ),
-        )
-        page.set_extra_http_headers(
-            {
-                "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
-                "Referer": "https://www.wantgoo.com/",
-            }
-        )
-
-        try:
-            page.goto(url, wait_until="domcontentloaded", timeout=45_000)
-        except PlaywrightTimeoutError:
-            print("Page navigation timed out after DOM wait; continuing with current content.")
-
-        selectors = [
-            "td[c-model='souvenirs']",
-            "a.stock-company",
-            "table tbody tr",
-        ]
-        for selector in selectors:
-            try:
-                page.wait_for_selector(selector, timeout=20_000)
-                print(f"Rendered selector found: {selector}")
-                break
-            except PlaywrightTimeoutError:
-                print(f"Selector not ready yet: {selector}")
-
-        try:
-            page.wait_for_load_state("networkidle", timeout=5_000)
-        except PlaywrightTimeoutError:
-            print("Network did not become idle; this is expected on WantGoo sometimes.")
-
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        page.wait_for_timeout(1_500)
-        html = page.content()
-        browser.close()
-
-    return html
+AGENT_MAPPING = {
+    "\u4e2d\u570b\u4fe1\u8a17": "\u4e2d\u4fe1",
+    "\u4e2d\u4fe1\u9280": "\u4e2d\u4fe1",
+    "\u5143\u5927": "\u5143\u5927",
+    "\u5143\u5bcc": "\u5143\u5bcc",
+    "\u53f0\u65b0": "\u53f0\u65b0",
+    "\u6c38\u8c50\u91d1": "\u6c38\u8c50\u91d1",
+    "\u5146\u8c50": "\u5146\u8c50",
+    "\u4e9e\u6771": "\u4e9e\u6771",
+    "\u570b\u7968": "\u570b\u7968",
+    "\u5eb7\u548c": "\u5eb7\u548c",
+    "\u7b2c\u4e00\u91d1": "\u7b2c\u4e00\u91d1",
+    "\u7d71\u4e00": "\u7d71\u4e00",
+    "\u51f1\u57fa": "\u51f1\u57fa",
+    "\u51f1\u7881": "\u51f1\u57fa",
+    "\u5bcc\u90a6": "\u5bcc\u90a6",
+    "\u83ef\u5357": "\u83ef\u5357",
+    "\u7fa4\u76ca": "\u7fa4\u76ca",
+    "\u5b8f\u9060": "\u5b8f\u9060",
+    "\u798f\u90a6": "\u798f\u90a6",
+    "\u65b0\u5149": "\u65b0\u5149",
+}
 
 
-def _parse_rows(html: str) -> list[dict[str, str]]:
-    soup = BeautifulSoup(html, "html.parser")
-    rows = []
+def _get_json(url: str) -> Any:
+    response = requests.get(url, headers=HEADERS, timeout=40)
+    response.raise_for_status()
+    return response.json()
 
-    souvenir_cells = soup.find_all("td", attrs={"c-model": "souvenirs"})
-    for cell in souvenir_cells:
-        row = cell.find_parent("tr")
-        if row:
-            rows.append(row)
 
-    if not rows:
-        rows = [
-            row
-            for row in soup.select("table tbody tr")
-            if row.select_one("a.stock-company") or row.find("td", attrs={"c-model": "souvenirs"})
-        ]
+def _date_from_ms(value: int | None) -> datetime | None:
+    if not value:
+        return None
+    return datetime.fromtimestamp(value / 1000, tz=timezone.utc)
+
+
+def _format_mmdd(value: int | None) -> str:
+    date = _date_from_ms(value)
+    return date.strftime("%m/%d") if date else ""
+
+
+def _is_holiday(date: datetime, holiday_dates: set[str]) -> bool:
+    return date.weekday() >= 5 or date.strftime("%Y-%m-%d") in holiday_dates
+
+
+def _previous_business_day(date: datetime, holiday_dates: set[str]) -> datetime:
+    while _is_holiday(date, holiday_dates):
+        date -= timedelta(days=1)
+    return date
+
+
+def _latest_buy_date(meeting_ms: int | None, holiday_dates: set[str]) -> datetime | None:
+    meeting_date = _date_from_ms(meeting_ms)
+    if not meeting_date:
+        return None
+
+    latest = _previous_business_day(meeting_date - timedelta(days=60), holiday_dates)
+    latest = _previous_business_day(latest - timedelta(days=1), holiday_dates)
+    latest = _previous_business_day(latest - timedelta(days=1), holiday_dates)
+    return latest
+
+
+def _format_date(date: datetime | None) -> str:
+    return date.strftime("%m/%d") if date else ""
+
+
+def _extract_city(location: str) -> str:
+    for name in CITY_NAMES:
+        if name in location:
+            return name.replace("\u81fa", "\u53f0")
+    return location[:2] if location else ""
+
+
+def _format_agent(agent: str) -> str:
+    for keyword, short_name in AGENT_MAPPING.items():
+        if keyword in agent:
+            return short_name
+    return "\u81ea\u8fa6" if agent else ""
+
+
+def _load_company_map() -> dict[str, dict[str, Any]]:
+    try:
+        rows = _get_json(INVESTRUE_URL)
+    except Exception as exc:
+        print(f"Company lookup failed; continuing without company names: {exc}")
+        return {}
+
+    return {
+        str(item.get("id")): item
+        for item in rows
+        if item.get("country") == "TW" and item.get("type") in {"Stock", "ETF", "DR"}
+    }
+
+
+def _load_twse_holidays() -> set[str]:
+    try:
+        rows = _get_json(HOLIDAY_URL)
+    except Exception as exc:
+        print(f"Holiday lookup failed; weekends will still be handled: {exc}")
+        return set()
+
+    holidays = set()
+    for item in rows:
+        if item.get("countryCode") != "TWSE":
+            continue
+        raw_date = str(item.get("date", ""))[:10]
+        if raw_date:
+            holidays.add(raw_date)
+    return holidays
+
+
+def fetch_souvenirs(year: int = YEAR, include_all: bool = False) -> list[dict[str, str]]:
+    print(f"Opening WantGoo API: {DATA_URL.format(year=year)}")
+    rows = _get_json(DATA_URL.format(year=year))
+    company_map = _load_company_map()
+    holiday_dates = _load_twse_holidays()
 
     results: list[dict[str, str]] = []
-    seen_codes: set[str] = set()
-
     for row in rows:
-        link = row.find("a", class_="stock-company")
-        code_node = link.find("span", class_="stock-code") if link else None
-        name_node = link.find("span", class_="stock-name") if link else None
-
-        stock_code = _text(code_node)
-        company = _text(name_node)
-        souvenir = _cmodel(row, "souvenirs")
-
-        if not stock_code:
-            cells = row.find_all("td")
-            if cells:
-                stock_code = _text(cells[0]).split()[0]
-            if len(cells) > 1 and not company:
-                company = _text(cells[1])
-            if len(cells) > 7 and not souvenir:
-                souvenir = _text(cells[7])
-
-        if not stock_code or stock_code in seen_codes:
+        status = row.get("status") or ""
+        souvenir = row.get("souvenirs") or status or "\u672a\u6c7a\u5b9a"
+        if not include_all and status != "\u6709\u767c\u653e":
             continue
-        seen_codes.add(stock_code)
 
-        city = ""
-        address = ""
-        city_span = row.find("span", attrs={"data-toggle": "tooltip"})
-        if city_span:
-            city = _text(city_span)
-            address = city_span.get("data-original-title", "").strip()
-
-        detail_url = ""
-        detail_link = row.find("a", class_="detail-btn")
-        if detail_link:
-            href = detail_link.get("href", "")
-            detail_url = f"https://www.wantgoo.com{href}" if href.startswith("/") else href
+        stock_code = str(row.get("stockNo") or "").strip()
+        company = company_map.get(stock_code, {})
+        latest_buy = _latest_buy_date(row.get("date"), holiday_dates)
+        meeting_date = _date_from_ms(row.get("date"))
+        detail_date = meeting_date.strftime("%Y-%m-%d") if meeting_date else ""
 
         results.append(
             {
                 "stock_code": stock_code,
-                "company": company,
+                "company": company.get("name", ""),
                 "souvenir": souvenir,
-                "latest_buy_date": _cmodel(row, "latestBuyDateFormat"),
-                "meeting_date": _cmodel(row, "dateFormat"),
-                "meeting_type": _cmodel(row, "type"),
-                "city": city,
-                "address": address,
-                "odd_shares": _cmodel(row, "oddSharesNotice"),
-                "re_election": _cmodel(row, "isReElection"),
-                "agent": _cmodel(row, "agentFormat"),
-                "agent_phone": _cmodel(row, "agentPhone"),
-                "detail_url": detail_url,
+                "latest_buy_date": _format_date(latest_buy),
+                "meeting_date": _format_mmdd(row.get("date")),
+                "meeting_type": row.get("type") or "",
+                "city": _extract_city(row.get("location") or ""),
+                "address": row.get("location") or "",
+                "odd_shares": "\u662f" if row.get("oddSharesNotice") else "\u5426",
+                "re_election": row.get("isReElection") or "",
+                "agent": _format_agent(row.get("agent") or ""),
+                "agent_phone": row.get("agentPhone") or "",
+                "detail_url": (
+                    f"{BASE_URL}/stock/calendar/shareholders-meeting-souvenirs/"
+                    f"{stock_code}/detail?date={detail_date}"
+                    if stock_code and detail_date
+                    else ""
+                ),
             }
         )
 
+    results.sort(key=lambda item: (item["latest_buy_date"], item["stock_code"]))
+    print(f"Parsed WantGoo API rows: {len(results)}")
     return results
 
 
-def fetch_souvenirs(year: int = 2026) -> list[dict[str, str]]:
-    if not PLAYWRIGHT_OK:
-        print("Playwright is missing; returning no data.")
-        return []
-
-    try:
-        html = _get_rendered_html(year)
-    except Exception as exc:
-        print(f"Failed to render WantGoo page: {exc}")
-        return []
-
-    data = _parse_rows(html)
-    print(f"Parsed WantGoo rows: {len(data)}")
-
-    if not data:
-        _save_debug_html(html, year)
-
-    return data
-
-
-def save_to_json(data: list[dict[str, str]], year: int = 2026) -> str:
+def save_to_json(data: list[dict[str, str]], year: int = YEAR) -> str:
     OUTPUT_DIR.mkdir(exist_ok=True)
     filepath = OUTPUT_DIR / f"souvenirs_{year}.json"
     payload = {
@@ -225,8 +237,9 @@ def save_to_json(data: list[dict[str, str]], year: int = 2026) -> str:
 
 
 def main() -> int:
-    year = int(os.getenv("SCRAPE_YEAR", "2026"))
-    data = fetch_souvenirs(year)
+    year = int(os.getenv("SCRAPE_YEAR", str(YEAR)))
+    include_all = os.getenv("WANTGOO_INCLUDE_ALL", "").lower() in {"1", "true", "yes"}
+    data = fetch_souvenirs(year, include_all=include_all)
     save_to_json(data, year)
 
     if data:
@@ -242,7 +255,7 @@ def main() -> int:
                 f"{item['souvenir'][:30]}"
             )
     else:
-        print("No WantGoo rows parsed. The workflow still completed; check debug HTML if needed.")
+        print("No WantGoo rows parsed.")
 
     return 0
 
