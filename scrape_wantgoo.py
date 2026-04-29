@@ -16,6 +16,16 @@ from typing import Any
 
 import requests
 
+try:
+    from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+    from playwright.sync_api import sync_playwright
+
+    PLAYWRIGHT_OK = True
+except ImportError:
+    PlaywrightTimeoutError = Exception
+    sync_playwright = None
+    PLAYWRIGHT_OK = False
+
 
 YEAR = 2026
 BASE_URL = "https://www.wantgoo.com"
@@ -86,9 +96,64 @@ AGENT_MAPPING = {
 
 
 def _get_json(url: str) -> Any:
-    response = requests.get(url, headers=HEADERS, timeout=40)
-    response.raise_for_status()
-    return response.json()
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=40)
+        response.raise_for_status()
+        return response.json()
+    except requests.HTTPError as exc:
+        status_code = exc.response.status_code if exc.response is not None else "unknown"
+        print(f"Requests failed with HTTP {status_code}; trying browser fallback.")
+        return _get_json_with_browser(url)
+
+
+def _get_json_with_browser(url: str) -> Any:
+    if not PLAYWRIGHT_OK or sync_playwright is None:
+        raise RuntimeError(
+            "WantGoo blocked direct HTTP requests and Playwright is not available. "
+            "Install it with: pip install playwright && python -m playwright install chromium"
+        )
+
+    year = os.getenv("SCRAPE_YEAR", str(YEAR))
+    page_url = PAGE_URL.format(year=year)
+    print(f"Opening browser fallback page: {page_url}")
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-dev-shm-usage", "--no-sandbox"],
+        )
+        context = browser.new_context(
+            locale="zh-TW",
+            timezone_id="Asia/Taipei",
+            user_agent=HEADERS["User-Agent"],
+            extra_http_headers={
+                "Accept-Language": HEADERS["Accept-Language"],
+            },
+        )
+        page = context.new_page()
+
+        try:
+            page.goto(page_url, wait_until="domcontentloaded", timeout=45_000)
+        except PlaywrightTimeoutError:
+            print("Browser page load timed out; continuing with API fetch in the same context.")
+
+        page.wait_for_timeout(3_000)
+        payload = page.evaluate(
+            """async (url) => {
+                const response = await fetch(url, {
+                    credentials: "include",
+                    headers: { "Accept": "application/json, text/plain, */*" }
+                });
+                if (!response.ok) {
+                    throw new Error(`Browser fetch failed: ${response.status} ${response.statusText}`);
+                }
+                return await response.json();
+            }""",
+            url,
+        )
+        browser.close()
+
+    return payload
 
 
 def _date_from_ms(value: int | None) -> datetime | None:
