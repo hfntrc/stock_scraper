@@ -2,8 +2,9 @@ name: Daily Stock Scraper
 
 on:
   schedule:
-    - cron: '15 0 * * *' # 每天台灣時間 08:15 執行
-  workflow_dispatch: # 保持手動執行功能
+    # Runs at 08:15 Asia/Taipei.
+    - cron: "15 0 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,6 +12,7 @@ permissions:
 jobs:
   daily_job:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,30 +20,32 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install playwright  # 確保有安裝 playwright 套件
 
-      - name: Install Playwright Browsers
-        run: |
-          playwright install chromium
-          playwright install-deps chromium
-          playwright install chromium --with-deps
+      - name: Install Playwright Chromium
+        run: python -m playwright install --with-deps chromium
 
-      - name: Run Daily Scrapers
-        run: |
-          # python scrape_histock.py
-          python scrape_wantgoo.py
+      - name: Run WantGoo scraper
+        run: python scrape_wantgoo.py
 
-      - name: Commit and Push
+      - name: Upload debug HTML
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wantgoo-debug
+          path: data/wantgoo_debug_*.html
+          if-no-files-found: ignore
+
+      - name: Commit and push data
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          mkdir -p data
           git add data/*.json
-          git commit -m "Daily Update" || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -m "Daily Update"
           git push
