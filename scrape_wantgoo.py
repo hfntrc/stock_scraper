@@ -44,7 +44,15 @@ def _get_rendered_html(year: int) -> str:
     print(f"🌐 啟動瀏覽器，載入頁面（約需 10~20 秒）...")
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        # 修改後 (增加對 Actions 環境的支援)
+        browser = browser_type.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage", # 防止記憶體不足導致崩潰
+            ]
+        )
         page = browser.new_page()
         page.set_extra_http_headers({"Accept-Language": "zh-TW,zh;q=0.9"})
 
