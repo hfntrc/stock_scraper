@@ -44,6 +44,8 @@ def _get_rendered_html(year: int) -> str:
     print(f"🌐 啟動瀏覽器，載入頁面（約需 10~20 秒）...")
 
     with sync_playwright() as p:
+      # 定義瀏覽器類型 (修正 NameError 的關鍵)
+        browser_type = p.chromium
         # 修改後 (增加對 Actions 環境的支援)
         browser = browser_type.launch(
             headless=True,
