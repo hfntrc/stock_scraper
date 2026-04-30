@@ -27,18 +27,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Playwright Chromium
-        run: python -m playwright install --with-deps chromium
-
-      - name: Run WantGoo scraper
-        run: python scrape_wantgoo.py
+      - name: Run GoodDie scraper
+        run: python scrape_gooddie.py
 
       - name: Upload debug HTML
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: wantgoo-debug
-          path: data/wantgoo_debug_*.html
+          name: scraper-debug
+          path: data/*debug*.html
           if-no-files-found: ignore
 
       - name: Commit and push data
