@@ -29,6 +29,8 @@ LABEL_EVOTE = "\u96fb\u6295"
 LABEL_AGENT = "\u80a1\u52d9\u4ee3\u7406"
 LABEL_MARKET = "\u5e02\u5834\u985e\u5225"
 TEXT_EVOTE_YES = "\u8981\u96fb\u6295"
+TEXT_SOUVENIR_SUFFIX = "\u80a1\u6771\u6703\u7d00\u5ff5\u54c1"
+TEXT_HISTORY = "\u6b77\u5e74\u767c\u653e"
 
 HEADERS = {
     "User-Agent": (
@@ -183,8 +185,7 @@ def _parse_single_card(card, year: int) -> dict | None:
     card_header = card.find("div", class_="card-header")
     card_body = card.find("div", class_="card-body")
 
-    gift_div = card.find("div", class_=lambda c: c and "gift-picture" in c.split())
-    souvenir = gift_div.get("title", "").strip() if gift_div else ""
+    souvenir = _parse_souvenir(card, stock_code, company, year)
 
     latest_buy = _normalize_date(_field_value(card_header, LABEL_LATEST_BUY), year)
     proxy_deadline = _normalize_date(_field_value(card_header, LABEL_PROXY_DEADLINE), year)
@@ -216,6 +217,36 @@ def _parse_single_card(card, year: int) -> dict | None:
         "agent_phone": agent_phone,
         "market": _field_value(card_body, LABEL_MARKET),
     }
+
+
+def _parse_souvenir(card, stock_code: str, company: str, year: int) -> str:
+    for node in card.select("div.text-truncate[title]"):
+        candidate = (node.get("title") or _clean_text(node)).strip()
+        if candidate and not _is_placeholder_souvenir(candidate, stock_code, company, year):
+            return candidate
+
+    gift_div = card.find("div", class_=lambda c: c and "gift-picture" in c.split())
+    if not gift_div:
+        return ""
+
+    candidate = (gift_div.get("title") or "").strip()
+    if _is_placeholder_souvenir(candidate, stock_code, company, year):
+        return ""
+
+    return candidate
+
+
+def _is_placeholder_souvenir(value: str, stock_code: str, company: str, year: int) -> bool:
+    text = re.sub(r"\s+", "", value or "")
+    if not text:
+        return True
+
+    if TEXT_HISTORY in text:
+        return True
+
+    has_stock_identity = stock_code in text or (company and company in text)
+    has_meeting_words = str(year) in text or TEXT_SOUVENIR_SUFFIX in text
+    return has_stock_identity and has_meeting_words
 
 
 def save_to_json(data: list[dict], year: int = 2026) -> str:
