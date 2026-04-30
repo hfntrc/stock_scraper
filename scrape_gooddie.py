@@ -269,7 +269,9 @@ def save_to_json(data: list[dict], year: int = 2026) -> str:
 
 
 def main() -> int:
-    year = int(os.getenv("SCRAPE_YEAR", "2026"))
+    # 優先讀取環境變數，若無則自動取得當前西元年份
+    current_year = datetime.now().year
+    year = int(os.getenv("SCRAPE_YEAR", str(current_year)))
     data = fetch_souvenirs(year)
     save_to_json(data, year)
 
