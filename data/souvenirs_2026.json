@@ -1,10 +1,70 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-05-03 04:11:49",
+  "updated_at": "2026-05-04 04:09:26",
   "year": 2026,
   "total": 753,
   "data": [
+    {
+      "stock_code": "7689",
+      "company": "大鵬科CLMX",
+      "souvenir": "多功能收納包",
+      "latest_buy_date": "2026/03/31",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/04",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/05",
+      "evote_end": "2026/06/01",
+      "agent": "富邦綜合證券(股)股務代理部",
+      "agent_phone": "02-23611300",
+      "market": ""
+    },
+    {
+      "stock_code": "4150",
+      "company": "優你康",
+      "souvenir": "全家50元禮券卡",
+      "latest_buy_date": "2026/03/31",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/04",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/05",
+      "evote_end": "2026/06/01",
+      "agent": "台新綜合證券股務代理部",
+      "agent_phone": "(02)25048125",
+      "market": ""
+    },
+    {
+      "stock_code": "5386",
+      "company": "青雲",
+      "souvenir": "肥皂組",
+      "latest_buy_date": "2026/03/31",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/04",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/05",
+      "evote_end": "2026/06/01",
+      "agent": "中國信託商業銀行股份有限公司",
+      "agent_phone": "02-6636-5566",
+      "market": ""
+    },
+    {
+      "stock_code": "3406",
+      "company": "玉晶光",
+      "souvenir": "7-11商品卡50元",
+      "latest_buy_date": "2026/03/26",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/29",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/29",
+      "evote_end": "2026/05/26",
+      "agent": "永豐金證券股份有限公司",
+      "agent_phone": "02-23816288",
+      "market": ""
+    },
     {
       "stock_code": "2337",
       "company": "旺宏",
@@ -1128,21 +1188,6 @@
       "evote_end": "2026/05/26",
       "agent": "中國信託商業銀行代理部",
       "agent_phone": "02-6636-5566",
-      "market": ""
-    },
-    {
-      "stock_code": "3406",
-      "company": "玉晶光",
-      "souvenir": "7-11商品卡50元",
-      "latest_buy_date": "2026/03/26",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/29",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/29",
-      "evote_end": "2026/05/26",
-      "agent": "永豐金證券股份有限公司",
-      "agent_phone": "02-23816288",
       "market": ""
     },
     {
@@ -8436,21 +8481,6 @@
       "market": ""
     },
     {
-      "stock_code": "4150",
-      "company": "優你康",
-      "souvenir": "全家50元禮券卡",
-      "latest_buy_date": "2026/03/31",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/04",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/05",
-      "evote_end": "2026/06/01",
-      "agent": "台新綜合證券股務代理部",
-      "agent_phone": "(02)25048125",
-      "market": ""
-    },
-    {
       "stock_code": "5398",
       "company": "慕康生醫",
       "souvenir": "超商50元商品卡",
@@ -10041,21 +10071,6 @@
       "market": ""
     },
     {
-      "stock_code": "7689",
-      "company": "大鵬科CLMX",
-      "souvenir": "多功能收納包",
-      "latest_buy_date": "2026/03/31",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/04",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/05",
-      "evote_end": "2026/06/01",
-      "agent": "富邦綜合證券(股)股務代理部",
-      "agent_phone": "02-23611300",
-      "market": ""
-    },
-    {
       "stock_code": "1784",
       "company": "訊聯",
       "souvenir": "外泌體極萃彈潤舒護面膜",
@@ -11088,21 +11103,6 @@
       "evote_end": "2026/06/15",
       "agent": "台灣精星股務辦事處",
       "agent_phone": "02-27905885",
-      "market": ""
-    },
-    {
-      "stock_code": "5386",
-      "company": "青雲",
-      "souvenir": "肥皂組",
-      "latest_buy_date": "2026/03/31",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/04",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/05",
-      "evote_end": "2026/06/01",
-      "agent": "中國信託商業銀行股份有限公司",
-      "agent_phone": "02-6636-5566",
       "market": ""
     },
     {
