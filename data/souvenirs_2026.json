@@ -1,10 +1,55 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-05-24 04:39:20",
+  "updated_at": "2026-05-25 04:51:18",
   "year": 2026,
   "total": 751,
   "data": [
+    {
+      "stock_code": "3032",
+      "company": "偉訓",
+      "souvenir": "統一超商35元商品卡",
+      "latest_buy_date": "2026/04/22",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/24",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/23",
+      "evote_end": "2026/06/21",
+      "agent": "元大證券股份有限公司",
+      "agent_phone": "02-2586-5859",
+      "market": ""
+    },
+    {
+      "stock_code": "3406",
+      "company": "玉晶光",
+      "souvenir": "7-11商品卡50元",
+      "latest_buy_date": "2026/03/26",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/29",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/29",
+      "evote_end": "2026/05/26",
+      "agent": "永豐金證券股份有限公司",
+      "agent_phone": "02-23816288",
+      "market": ""
+    },
+    {
+      "stock_code": "3051",
+      "company": "力特",
+      "souvenir": "台灣製ESG公益砧板",
+      "latest_buy_date": "2026/04/22",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/24",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/23",
+      "evote_end": "2026/06/21",
+      "agent": "群益金鼎證券股份有限公司",
+      "agent_phone": "(02)2702-3999",
+      "market": ""
+    },
     {
       "stock_code": "2365",
       "company": "昆盈",
@@ -5451,21 +5496,6 @@
       "market": ""
     },
     {
-      "stock_code": "3406",
-      "company": "玉晶光",
-      "souvenir": "7-11商品卡50元",
-      "latest_buy_date": "2026/03/26",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/29",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/29",
-      "evote_end": "2026/05/26",
-      "agent": "永豐金證券股份有限公司",
-      "agent_phone": "02-23816288",
-      "market": ""
-    },
-    {
       "stock_code": "2337",
       "company": "旺宏",
       "souvenir": "50元統一超商商品卡",
@@ -6093,21 +6123,6 @@
       "evote_end": "2026/05/24",
       "agent": "康和綜合證券股份有限公司",
       "agent_phone": "",
-      "market": ""
-    },
-    {
-      "stock_code": "3032",
-      "company": "偉訓",
-      "souvenir": "統一超商35元商品卡",
-      "latest_buy_date": "2026/04/22",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/24",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/23",
-      "evote_end": "2026/06/21",
-      "agent": "元大證券股份有限公司",
-      "agent_phone": "02-2586-5859",
       "market": ""
     },
     {
@@ -11058,21 +11073,6 @@
       "evote_end": "2026/06/27",
       "agent": "台新證券股務代理部",
       "agent_phone": "(02)2504-8125",
-      "market": ""
-    },
-    {
-      "stock_code": "3051",
-      "company": "力特",
-      "souvenir": "台灣製ESG公益砧板",
-      "latest_buy_date": "2026/04/22",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/24",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/23",
-      "evote_end": "2026/06/21",
-      "agent": "群益金鼎證券股份有限公司",
-      "agent_phone": "(02)2702-3999",
       "market": ""
     },
     {
