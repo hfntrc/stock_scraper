@@ -1,10 +1,55 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-05-27 04:48:14",
+  "updated_at": "2026-05-28 04:39:22",
   "year": 2026,
   "total": 753,
   "data": [
+    {
+      "stock_code": "6163",
+      "company": "華電網",
+      "souvenir": "手機支架",
+      "latest_buy_date": "2026/04/23",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/26",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/27",
+      "evote_end": "2026/06/23",
+      "agent": "中國信託商業銀行 代理部",
+      "agent_phone": "(02)2717-1033",
+      "market": ""
+    },
+    {
+      "stock_code": "1503",
+      "company": "士電",
+      "souvenir": "充電式六段多功能手電筒(紀念品數量如有不足時，以等值商品替代)",
+      "latest_buy_date": "2026/04/15",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/17",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/18",
+      "evote_end": "2026/06/14",
+      "agent": "中國信託商業銀行 代理部",
+      "agent_phone": "(02)6636-5566",
+      "market": ""
+    },
+    {
+      "stock_code": "6217",
+      "company": "中探針",
+      "souvenir": "統一超商商品卡50元",
+      "latest_buy_date": "2026/04/21",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/22",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/23",
+      "evote_end": "2026/06/19",
+      "agent": "凱基證券股份有限公司",
+      "agent_phone": "02-23892999",
+      "market": ""
+    },
     {
       "stock_code": "6403",
       "company": "群登",
@@ -33,21 +78,6 @@
       "evote_end": "2026/06/23",
       "agent": "元大證券股份有限公司",
       "agent_phone": "02-2586-5859",
-      "market": ""
-    },
-    {
-      "stock_code": "6163",
-      "company": "華電網",
-      "souvenir": "手機支架",
-      "latest_buy_date": "2026/04/23",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/26",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/27",
-      "evote_end": "2026/06/23",
-      "agent": "中國信託商業銀行 代理部",
-      "agent_phone": "(02)2717-1033",
       "market": ""
     },
     {
@@ -918,21 +948,6 @@
       "evote_end": "2026/06/21",
       "agent": "台新證券股務代理部",
       "agent_phone": "(02)2504-8125",
-      "market": ""
-    },
-    {
-      "stock_code": "6217",
-      "company": "中探針",
-      "souvenir": "統一超商商品卡50元",
-      "latest_buy_date": "2026/04/21",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/22",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/23",
-      "evote_end": "2026/06/19",
-      "agent": "凱基證券股份有限公司",
-      "agent_phone": "02-23892999",
       "market": ""
     },
     {
@@ -3033,21 +3048,6 @@
       "evote_end": "2026/06/14",
       "agent": "華南永昌綜合證券股份有限公司",
       "agent_phone": "02-2718-6425",
-      "market": ""
-    },
-    {
-      "stock_code": "1503",
-      "company": "士電",
-      "souvenir": "充電式六段多功能手電筒(紀念品數量如有不足時，以等值商品替代)",
-      "latest_buy_date": "2026/04/15",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/17",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/18",
-      "evote_end": "2026/06/14",
-      "agent": "中國信託商業銀行 代理部",
-      "agent_phone": "(02)6636-5566",
       "market": ""
     },
     {
