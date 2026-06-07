@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-06-06 04:20:14",
+  "updated_at": "2026-06-07 04:56:22",
   "year": 2026,
   "total": 754,
   "data": [
+    {
+      "stock_code": "3023",
+      "company": "信邦",
+      "souvenir": "玻璃杯",
+      "latest_buy_date": "2026/03/25",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/27",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/25",
+      "evote_end": "2026/05/24",
+      "agent": "台新證券股務代理部",
+      "agent_phone": "02-2504-8125",
+      "market": ""
+    },
     {
       "stock_code": "1558",
       "company": "伸興",
@@ -8193,21 +8208,6 @@
       "evote_end": "2026/05/24",
       "agent": "元富證券股份有限公司",
       "agent_phone": "(02)2768-6668",
-      "market": ""
-    },
-    {
-      "stock_code": "3023",
-      "company": "信邦",
-      "souvenir": "玻璃杯",
-      "latest_buy_date": "2026/03/25",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/27",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/25",
-      "evote_end": "2026/05/24",
-      "agent": "台新證券股務代理部",
-      "agent_phone": "02-2504-8125",
       "market": ""
     },
     {
