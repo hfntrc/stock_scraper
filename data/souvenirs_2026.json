@@ -1,10 +1,40 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-06-07 04:56:22",
+  "updated_at": "2026-06-08 05:01:50",
   "year": 2026,
   "total": 754,
   "data": [
+    {
+      "stock_code": "3105",
+      "company": "穩懋",
+      "souvenir": "蜂王拾光漫遊經典皂二入組",
+      "latest_buy_date": "2026/03/24",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/25",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/25",
+      "evote_end": "2026/05/22",
+      "agent": "福邦證券股份有限公司股務代理部",
+      "agent_phone": "(02)2371-1658",
+      "market": ""
+    },
+    {
+      "stock_code": "4541",
+      "company": "晟田",
+      "souvenir": "統一超商35元商品卡",
+      "latest_buy_date": "2026/04/08",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/11",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/12",
+      "evote_end": "2026/06/08",
+      "agent": "凱基證券股份有限公司",
+      "agent_phone": "(02)2389-2999",
+      "market": ""
+    },
     {
       "stock_code": "3023",
       "company": "信邦",
@@ -63,21 +93,6 @@
       "evote_end": "2026/06/26",
       "agent": "統一綜合證券股份有限公司",
       "agent_phone": "(02)2746-3797",
-      "market": ""
-    },
-    {
-      "stock_code": "3105",
-      "company": "穩懋",
-      "souvenir": "蜂王拾光漫遊經典皂二入組",
-      "latest_buy_date": "2026/03/24",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/25",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/25",
-      "evote_end": "2026/05/22",
-      "agent": "福邦證券股份有限公司股務代理部",
-      "agent_phone": "(02)2371-1658",
       "market": ""
     },
     {
@@ -4323,21 +4338,6 @@
       "evote_end": "2026/06/08",
       "agent": "永豐金證券股份有限公司",
       "agent_phone": "02-23816288",
-      "market": ""
-    },
-    {
-      "stock_code": "4541",
-      "company": "晟田",
-      "souvenir": "統一超商35元商品卡",
-      "latest_buy_date": "2026/04/08",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/11",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/12",
-      "evote_end": "2026/06/08",
-      "agent": "凱基證券股份有限公司",
-      "agent_phone": "(02)2389-2999",
       "market": ""
     },
     {
