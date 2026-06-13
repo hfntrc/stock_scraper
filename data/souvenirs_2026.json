@@ -1,10 +1,40 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-06-12 05:02:36",
+  "updated_at": "2026-06-13 04:50:44",
   "year": 2026,
   "total": 756,
   "data": [
+    {
+      "stock_code": "4960",
+      "company": "誠美材",
+      "souvenir": "統一超商100元商品卡(或以等值商品替代之)",
+      "latest_buy_date": "2026/05/27",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/29",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/06/13",
+      "evote_end": "2026/06/26",
+      "agent": "兆豐證券股份有限公司",
+      "agent_phone": "(02)3393-0898",
+      "market": ""
+    },
+    {
+      "stock_code": "4138",
+      "company": "曜亞",
+      "souvenir": "面膜",
+      "latest_buy_date": "2026/04/22",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/23",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/23",
+      "evote_end": "2026/06/20",
+      "agent": "統一綜合證券(股)公司",
+      "agent_phone": "(02)27463797",
+      "market": ""
+    },
     {
       "stock_code": "6204",
       "company": "艾華",
@@ -1083,21 +1113,6 @@
       "evote_end": "2026/06/27",
       "agent": "福邦證券股份有限公司",
       "agent_phone": "02-2383-6888",
-      "market": ""
-    },
-    {
-      "stock_code": "4960",
-      "company": "誠美材",
-      "souvenir": "統一超商100元商品卡(或以等值商品替代之)",
-      "latest_buy_date": "2026/05/27",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/29",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/06/13",
-      "evote_end": "2026/06/26",
-      "agent": "兆豐證券股份有限公司",
-      "agent_phone": "(02)3393-0898",
       "market": ""
     },
     {
@@ -2343,21 +2358,6 @@
       "evote_end": "2026/06/19",
       "agent": "元大證券股務代理部",
       "agent_phone": "25865859",
-      "market": ""
-    },
-    {
-      "stock_code": "4138",
-      "company": "曜亞",
-      "souvenir": "面膜",
-      "latest_buy_date": "2026/04/22",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/23",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/23",
-      "evote_end": "2026/06/20",
-      "agent": "統一綜合證券(股)公司",
-      "agent_phone": "(02)27463797",
       "market": ""
     },
     {
