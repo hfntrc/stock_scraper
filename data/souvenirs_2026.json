@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-06-14 05:05:58",
+  "updated_at": "2026-06-15 05:27:47",
   "year": 2026,
   "total": 756,
   "data": [
+    {
+      "stock_code": "5701",
+      "company": "劍湖山",
+      "souvenir": "萌髮洗髮精系列產品",
+      "latest_buy_date": "2026/04/15",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/17",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/16",
+      "evote_end": "2026/06/14",
+      "agent": "群益金鼎證券股份有限公司",
+      "agent_phone": "02-27023999",
+      "market": ""
+    },
     {
       "stock_code": "4960",
       "company": "誠美材",
@@ -2193,21 +2208,6 @@
       "evote_end": "2026/06/08",
       "agent": "中國信託商業銀行代理部",
       "agent_phone": "02-66365566",
-      "market": ""
-    },
-    {
-      "stock_code": "5701",
-      "company": "劍湖山",
-      "souvenir": "萌髮洗髮精系列產品",
-      "latest_buy_date": "2026/04/15",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/17",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/16",
-      "evote_end": "2026/06/14",
-      "agent": "群益金鼎證券股份有限公司",
-      "agent_phone": "02-27023999",
       "market": ""
     },
     {
