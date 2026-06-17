@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-06-16 05:31:47",
+  "updated_at": "2026-06-17 05:16:12",
   "year": 2026,
   "total": 756,
   "data": [
+    {
+      "stock_code": "6265",
+      "company": "方土昶",
+      "souvenir": "股東專屬-仙桃牌購物金$250元",
+      "latest_buy_date": "2026/04/23",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/26",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/27",
+      "evote_end": "2026/06/23",
+      "agent": "中國信託商業銀行股份有限公司",
+      "agent_phone": "(02)6636-5566",
+      "market": ""
+    },
     {
       "stock_code": "5701",
       "company": "劍湖山",
@@ -738,21 +753,6 @@
       "evote_end": "2026/06/15",
       "agent": "凱基證券股份有限公司",
       "agent_phone": "(02)2389-2999",
-      "market": ""
-    },
-    {
-      "stock_code": "6265",
-      "company": "方土昶",
-      "souvenir": "股東專屬-仙桃牌購物金$250元",
-      "latest_buy_date": "2026/04/23",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/26",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/27",
-      "evote_end": "2026/06/23",
-      "agent": "中國信託商業銀行股份有限公司",
-      "agent_phone": "(02)6636-5566",
       "market": ""
     },
     {
