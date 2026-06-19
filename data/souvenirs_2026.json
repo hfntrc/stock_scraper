@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-06-18 05:01:28",
+  "updated_at": "2026-06-19 05:24:21",
   "year": 2026,
   "total": 756,
   "data": [
+    {
+      "stock_code": "1217",
+      "company": "愛之味",
+      "souvenir": "愛之味古法濃香初榨花生油(100ml)1瓶或其他等值商品",
+      "latest_buy_date": "2026/04/23",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/26",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/27",
+      "evote_end": "2026/06/23",
+      "agent": "群益金鼎證券股份有限公司",
+      "agent_phone": "02-27023999",
+      "market": ""
+    },
     {
       "stock_code": "6265",
       "company": "方土昶",
@@ -573,21 +588,6 @@
       "evote_end": "2026/06/26",
       "agent": "統一綜合證券股份有限公司",
       "agent_phone": "(02)27463797",
-      "market": ""
-    },
-    {
-      "stock_code": "1217",
-      "company": "愛之味",
-      "souvenir": "愛之味古法濃香初榨花生油(100ml)1瓶或其他等值商品",
-      "latest_buy_date": "2026/04/23",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/26",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/27",
-      "evote_end": "2026/06/23",
-      "agent": "群益金鼎證券股份有限公司",
-      "agent_phone": "02-27023999",
       "market": ""
     },
     {
@@ -9818,7 +9818,7 @@
     {
       "stock_code": "1711",
       "company": "永光",
-      "souvenir": "全家35元企業禮贈卡",
+      "souvenir": "全家企業禮贈卡35元",
       "latest_buy_date": "2026/03/27",
       "proxy_deadline": "",
       "meeting_date": "2026/05/28",
