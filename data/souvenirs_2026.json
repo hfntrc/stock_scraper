@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-06-23 04:20:36",
+  "updated_at": "2026-06-24 04:35:11",
   "year": 2026,
   "total": 757,
   "data": [
+    {
+      "stock_code": "6204",
+      "company": "艾華",
+      "souvenir": "全家便利商店禮物卡50元",
+      "latest_buy_date": "2026/05/27",
+      "proxy_deadline": "",
+      "meeting_date": "2026/07/28",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/06/24",
+      "evote_end": "2026/07/25",
+      "agent": "台新綜合證券(股)公司股務代理部",
+      "agent_phone": "(02)25048125",
+      "market": ""
+    },
     {
       "stock_code": "5398",
       "company": "慕康生醫",
@@ -108,21 +123,6 @@
       "evote_end": "2026/06/20",
       "agent": "統一綜合證券(股)公司",
       "agent_phone": "(02)27463797",
-      "market": ""
-    },
-    {
-      "stock_code": "6204",
-      "company": "艾華",
-      "souvenir": "全家便利商店禮物卡50元",
-      "latest_buy_date": "2026/05/27",
-      "proxy_deadline": "",
-      "meeting_date": "2026/07/28",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/06/24",
-      "evote_end": "2026/07/25",
-      "agent": "台新綜合證券(股)公司股務代理部",
-      "agent_phone": "(02)25048125",
       "market": ""
     },
     {
@@ -2648,7 +2648,7 @@
     {
       "stock_code": "1712",
       "company": "興農",
-      "souvenir": "一滴淨奈米碳酸抗菌洗手乳1瓶【數量不足時，以等值商品替代】，本公司不收取紀念品保證金",
+      "souvenir": "一滴淨奈米碳酸抗菌洗手乳1瓶",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/26",
@@ -11318,7 +11318,7 @@
     {
       "stock_code": "3321",
       "company": "同泰",
-      "souvenir": "50元超商卡",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/01/09",
       "proxy_deadline": "",
       "meeting_date": "2026/02/10",
