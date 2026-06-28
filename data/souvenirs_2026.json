@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-06-27 04:16:22",
+  "updated_at": "2026-06-28 04:49:30",
   "year": 2026,
   "total": 757,
   "data": [
+    {
+      "stock_code": "3062",
+      "company": "建漢",
+      "souvenir": "玻璃皮套兩用瓶",
+      "latest_buy_date": "2026/03/25",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/28",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/28",
+      "evote_end": "2026/05/25",
+      "agent": "福邦證券股份有限公司",
+      "agent_phone": "(02)2371-1658",
+      "market": ""
+    },
     {
       "stock_code": "2614",
       "company": "東森",
@@ -348,21 +363,6 @@
       "evote_end": "2026/06/20",
       "agent": "永豐金證券股份有限公司",
       "agent_phone": "02-2381-6288",
-      "market": ""
-    },
-    {
-      "stock_code": "3062",
-      "company": "建漢",
-      "souvenir": "玻璃皮套兩用瓶",
-      "latest_buy_date": "2026/03/25",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/28",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/28",
-      "evote_end": "2026/05/25",
-      "agent": "福邦證券股份有限公司",
-      "agent_phone": "(02)2371-1658",
       "market": ""
     },
     {
