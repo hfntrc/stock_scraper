@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-03 04:07:29",
+  "updated_at": "2026-07-04 04:00:50",
   "year": 2026,
   "total": 758,
   "data": [
@@ -623,7 +623,7 @@
     {
       "stock_code": "4541",
       "company": "晟田",
-      "souvenir": "統一超商35元商品卡",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/11",
@@ -9383,7 +9383,7 @@
     {
       "stock_code": "6593",
       "company": "台灣銘板",
-      "souvenir": "7-11商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/03/24",
       "proxy_deadline": "",
       "meeting_date": "2026/05/25",
@@ -9428,7 +9428,7 @@
     {
       "stock_code": "3118",
       "company": "進階",
-      "souvenir": "全家便利店禮物卡35元",
+      "souvenir": "全家禮物卡35元",
       "latest_buy_date": "2026/03/24",
       "proxy_deadline": "",
       "meeting_date": "2026/05/25",
@@ -10943,7 +10943,7 @@
     {
       "stock_code": "4967",
       "company": "十銓",
-      "souvenir": "全家便利商店禮物卡50元",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/03/12",
       "proxy_deadline": "",
       "meeting_date": "2026/05/15",
@@ -11303,7 +11303,7 @@
     {
       "stock_code": "6419",
       "company": "京晨科",
-      "souvenir": "全家便利商店禮物卡50元",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/01/25",
       "proxy_deadline": "",
       "meeting_date": "2026/02/26",
