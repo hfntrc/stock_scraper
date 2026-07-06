@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-05 04:19:45",
+  "updated_at": "2026-07-06 04:38:43",
   "year": 2026,
   "total": 758,
   "data": [
@@ -4613,7 +4613,7 @@
     {
       "stock_code": "6485",
       "company": "點序",
-      "souvenir": "超商商品卡50元",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/04/15",
       "proxy_deadline": "",
       "meeting_date": "2026/06/16",
@@ -5063,7 +5063,7 @@
     {
       "stock_code": "2495",
       "company": "普安",
-      "souvenir": "7-11商品卡 35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/09",
       "proxy_deadline": "",
       "meeting_date": "2026/06/12",
@@ -5993,7 +5993,7 @@
     {
       "stock_code": "8048",
       "company": "德勝",
-      "souvenir": "統一超商商品卡三十五元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/09",
@@ -7148,7 +7148,7 @@
     {
       "stock_code": "4961",
       "company": "天鈺",
-      "souvenir": "統一超商50元商品卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/03/26",
       "proxy_deadline": "",
       "meeting_date": "2026/05/29",
@@ -7253,7 +7253,7 @@
     {
       "stock_code": "2480",
       "company": "敦陽科",
-      "souvenir": "統一超商商品卡，面額35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/03/26",
       "proxy_deadline": "",
       "meeting_date": "2026/05/29",
@@ -7283,7 +7283,7 @@
     {
       "stock_code": "2354",
       "company": "鴻準",
-      "souvenir": "超商50元商品卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/03/26",
       "proxy_deadline": "",
       "meeting_date": "2026/05/29",
@@ -7793,7 +7793,7 @@
     {
       "stock_code": "2241",
       "company": "艾姆勒",
-      "souvenir": "統一超商商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/28",
@@ -9023,7 +9023,7 @@
     {
       "stock_code": "8039",
       "company": "台虹",
-      "souvenir": "統一超商商品卡面額35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/27",
@@ -9038,7 +9038,7 @@
     {
       "stock_code": "3042",
       "company": "晶技",
-      "souvenir": "超商50元商品卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/27",
@@ -9413,7 +9413,7 @@
     {
       "stock_code": "3438",
       "company": "類比科",
-      "souvenir": "統一超商商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/03/24",
       "proxy_deadline": "",
       "meeting_date": "2026/05/25",
@@ -9608,7 +9608,7 @@
     {
       "stock_code": "1611",
       "company": "中電",
-      "souvenir": "50元超商禮物卡",
+      "souvenir": "統一超商卡50元",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/26",
