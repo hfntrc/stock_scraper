@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-08 03:43:40",
+  "updated_at": "2026-07-09 04:12:58",
   "year": 2026,
   "total": 757,
   "data": [
+    {
+      "stock_code": "3034",
+      "company": "聯詠",
+      "souvenir": "超商商品卡50元",
+      "latest_buy_date": "2026/03/26",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/29",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/29",
+      "evote_end": "2026/05/26",
+      "agent": "宏遠證券股份有限公司股務代理部",
+      "agent_phone": "(02)23268818",
+      "market": ""
+    },
     {
       "stock_code": "4147",
       "company": "中裕",
@@ -5168,7 +5183,7 @@
     {
       "stock_code": "3013",
       "company": "晟銘電",
-      "souvenir": "三角斜背保溫保冷袋 ( 紀念品數量如有不足時，得以價值相當者替代)",
+      "souvenir": "三角斜背保溫保冷袋",
       "latest_buy_date": "2026/04/09",
       "proxy_deadline": "",
       "meeting_date": "2026/06/12",
@@ -7868,7 +7883,7 @@
     {
       "stock_code": "4806",
       "company": "桂田文創",
-      "souvenir": "加捷順暢益生菌2 入",
+      "souvenir": "加捷順暢益生菌",
       "latest_buy_date": "2026/03/26",
       "proxy_deadline": "",
       "meeting_date": "2026/05/29",
@@ -8798,7 +8813,7 @@
     {
       "stock_code": "6290",
       "company": "良維",
-      "souvenir": "珪藻土杯墊一枚",
+      "souvenir": "珪藻土杯墊",
       "latest_buy_date": "2026/03/24",
       "proxy_deadline": "",
       "meeting_date": "2026/05/25",
@@ -10953,21 +10968,6 @@
       "evote_end": "2026/05/11",
       "agent": "福邦證券股份有限公司股務代理部",
       "agent_phone": "02-23836888",
-      "market": ""
-    },
-    {
-      "stock_code": "3034",
-      "company": "聯詠",
-      "souvenir": "超商商品卡50元",
-      "latest_buy_date": "2026/03/26",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/29",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/29",
-      "evote_end": "2026/05/26",
-      "agent": "宏遠證券股份有限公司股務代理部",
-      "agent_phone": "(02)23268818",
       "market": ""
     },
     {
