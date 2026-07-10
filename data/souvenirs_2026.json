@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-09 04:12:58",
+  "updated_at": "2026-07-10 04:13:37",
   "year": 2026,
   "total": 757,
   "data": [
@@ -2903,7 +2903,7 @@
     {
       "stock_code": "2488",
       "company": "漢平",
-      "souvenir": "7-11商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/24",
@@ -9638,7 +9638,7 @@
     {
       "stock_code": "8213",
       "company": "志超",
-      "souvenir": "超商禮券50元",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/27",
@@ -11258,7 +11258,7 @@
     {
       "stock_code": "6770",
       "company": "力積電",
-      "souvenir": "統一超商100元商品卡",
+      "souvenir": "統一商品卡100元",
       "latest_buy_date": "2026/02/07",
       "proxy_deadline": "",
       "meeting_date": "2026/04/10",
