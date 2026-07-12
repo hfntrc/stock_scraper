@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-11 03:41:20",
+  "updated_at": "2026-07-12 03:55:48",
   "year": 2026,
   "total": 757,
   "data": [
@@ -503,7 +503,7 @@
     {
       "stock_code": "1217",
       "company": "愛之味",
-      "souvenir": "愛之味古法濃香初榨花生油(100ml)1瓶或其他等值商品",
+      "souvenir": "愛之味古法濃香初榨花生油(100ml)1瓶",
       "latest_buy_date": "2026/04/23",
       "proxy_deadline": "",
       "meeting_date": "2026/06/26",
@@ -7973,7 +7973,7 @@
     {
       "stock_code": "6509",
       "company": "聚和",
-      "souvenir": "自黏性便條紙(若紀念品不足時，得以等值產品替代)",
+      "souvenir": "自黏性便條紙",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/28",
@@ -11153,7 +11153,7 @@
     {
       "stock_code": "4927",
       "company": "泰鼎-KY",
-      "souvenir": "針織手提袋(紀念品若有不足，以同等價值紀念品替代之)",
+      "souvenir": "針織手提袋",
       "latest_buy_date": "2026/02/26",
       "proxy_deadline": "",
       "meeting_date": "2026/04/29",
