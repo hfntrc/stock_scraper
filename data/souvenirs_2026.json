@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-13 03:58:45",
+  "updated_at": "2026-07-14 03:32:11",
   "year": 2026,
-  "total": 757,
+  "total": 758,
   "data": [
+    {
+      "stock_code": "4128",
+      "company": "中天",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/07/27",
+      "proxy_deadline": "",
+      "meeting_date": "2026/08/28",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/08/13",
+      "evote_end": "2026/08/25",
+      "agent": "兆豐證券股份有限公司",
+      "agent_phone": "02-3393-0898",
+      "market": ""
+    },
     {
       "stock_code": "3034",
       "company": "聯詠",
