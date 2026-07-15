@@ -1,10 +1,55 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-14 03:32:11",
+  "updated_at": "2026-07-15 03:32:23",
   "year": 2026,
   "total": 758,
   "data": [
+    {
+      "stock_code": "4999",
+      "company": "鑫禾",
+      "souvenir": "超商咖啡兌換券",
+      "latest_buy_date": "2026/04/22",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/23",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/23",
+      "evote_end": "2026/06/20",
+      "agent": "兆豐證券股份有限公司股務代理部",
+      "agent_phone": "(02)3393-0898",
+      "market": ""
+    },
+    {
+      "stock_code": "4966",
+      "company": "譜瑞-KY",
+      "souvenir": "全家便利商店禮物卡50元",
+      "latest_buy_date": "2026/04/15",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/17",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/18",
+      "evote_end": "2026/06/14",
+      "agent": "中國信託商業銀行代理部",
+      "agent_phone": "02-6636-5566",
+      "market": ""
+    },
+    {
+      "stock_code": "2340",
+      "company": "台亞",
+      "souvenir": "50元超商商品卡",
+      "latest_buy_date": "2026/04/22",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/25",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/26",
+      "evote_end": "2026/06/22",
+      "agent": "台新證券股務代理部",
+      "agent_phone": "02-25048125",
+      "market": ""
+    },
     {
       "stock_code": "4128",
       "company": "中天",
@@ -9171,21 +9216,6 @@
       "market": ""
     },
     {
-      "stock_code": "4999",
-      "company": "鑫禾",
-      "souvenir": "超商咖啡兌換券",
-      "latest_buy_date": "2026/04/22",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/23",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/23",
-      "evote_end": "2026/06/20",
-      "agent": "兆豐證券股份有限公司股務代理部",
-      "agent_phone": "(02)3393-0898",
-      "market": ""
-    },
-    {
       "stock_code": "6477",
       "company": "安集",
       "souvenir": "植萃精華皂",
@@ -10851,21 +10881,6 @@
       "market": ""
     },
     {
-      "stock_code": "4966",
-      "company": "譜瑞-KY",
-      "souvenir": "全家便利商店禮物卡50元",
-      "latest_buy_date": "2026/04/15",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/17",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/18",
-      "evote_end": "2026/06/14",
-      "agent": "中國信託商業銀行代理部",
-      "agent_phone": "02-6636-5566",
-      "market": ""
-    },
-    {
       "stock_code": "6621",
       "company": "華宇藥",
       "souvenir": "統一超商50元商品卡",
@@ -10983,21 +10998,6 @@
       "evote_end": "2026/05/11",
       "agent": "福邦證券股份有限公司股務代理部",
       "agent_phone": "02-23836888",
-      "market": ""
-    },
-    {
-      "stock_code": "2340",
-      "company": "台亞",
-      "souvenir": "50元超商商品卡",
-      "latest_buy_date": "2026/04/22",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/25",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/26",
-      "evote_end": "2026/06/22",
-      "agent": "台新證券股務代理部",
-      "agent_phone": "02-25048125",
       "market": ""
     },
     {
