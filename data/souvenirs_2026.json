@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-20 04:03:28",
+  "updated_at": "2026-07-21 03:43:42",
   "year": 2026,
   "total": 760,
   "data": [
@@ -2543,7 +2543,7 @@
     {
       "stock_code": "3711",
       "company": "日月光投控",
-      "souvenir": "儲物罐(屆時若數量不足將以等值禮品替代之)",
+      "souvenir": "儲物罐",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/24",
@@ -5183,7 +5183,7 @@
     {
       "stock_code": "3028",
       "company": "增你強",
-      "souvenir": "隨行玻璃胖胖瓶",
+      "souvenir": "隨行玻璃胖胖瓶(改發萬用布)",
       "latest_buy_date": "2026/04/09",
       "proxy_deadline": "",
       "meeting_date": "2026/06/12",
@@ -7493,7 +7493,7 @@
     {
       "stock_code": "2103",
       "company": "台橡",
-      "souvenir": "休閒運動襪子禮盒(不足時以等值商品替代)",
+      "souvenir": "休閒運動襪子禮盒",
       "latest_buy_date": "2026/03/26",
       "proxy_deadline": "",
       "meeting_date": "2026/05/29",
@@ -9758,7 +9758,7 @@
     {
       "stock_code": "8215",
       "company": "明基材",
-      "souvenir": "護妍天使亮白水潤雙星保養限定組 (公司於03/18公告紀念品變更為護妍天使 光透水潤雙星保養限定組)",
+      "souvenir": "護妍天使光透水潤雙星保養限定組",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/27",
