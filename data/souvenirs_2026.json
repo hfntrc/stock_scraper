@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-22 03:44:17",
+  "updated_at": "2026-07-23 03:44:02",
   "year": 2026,
   "total": 760,
   "data": [
+    {
+      "stock_code": "5398",
+      "company": "慕康生醫",
+      "souvenir": "超商50元商品卡",
+      "latest_buy_date": "2026/07/06",
+      "proxy_deadline": "",
+      "meeting_date": "2026/08/07",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/07/23",
+      "evote_end": "2026/08/04",
+      "agent": "康和證券股務代理部",
+      "agent_phone": "87871888",
+      "market": ""
+    },
     {
       "stock_code": "3479",
       "company": "安勤",
@@ -633,21 +648,6 @@
       "evote_end": "2026/07/25",
       "agent": "台新綜合證券(股)公司股務代理部",
       "agent_phone": "(02)25048125",
-      "market": ""
-    },
-    {
-      "stock_code": "5398",
-      "company": "慕康生醫",
-      "souvenir": "超商50元商品卡",
-      "latest_buy_date": "2026/07/06",
-      "proxy_deadline": "",
-      "meeting_date": "2026/08/07",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/07/23",
-      "evote_end": "2026/08/04",
-      "agent": "康和證券股務代理部",
-      "agent_phone": "87871888",
       "market": ""
     },
     {
