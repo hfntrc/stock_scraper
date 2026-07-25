@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-24 03:42:12",
+  "updated_at": "2026-07-25 03:35:56",
   "year": 2026,
   "total": 760,
   "data": [
+    {
+      "stock_code": "8183",
+      "company": "精星",
+      "souvenir": "FDK三號鹼性電池(4入一組)",
+      "latest_buy_date": "2026/04/15",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/18",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/19",
+      "evote_end": "2026/06/15",
+      "agent": "台灣精星股務辦事處",
+      "agent_phone": "02-27905885",
+      "market": ""
+    },
     {
       "stock_code": "5398",
       "company": "慕康生醫",
@@ -3573,21 +3588,6 @@
       "evote_end": "2026/06/20",
       "agent": "華南永昌綜合證券股務代理部",
       "agent_phone": "02-27186425",
-      "market": ""
-    },
-    {
-      "stock_code": "8183",
-      "company": "精星",
-      "souvenir": "FDK三號鹼性電池(4入一組)",
-      "latest_buy_date": "2026/04/15",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/18",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/19",
-      "evote_end": "2026/06/15",
-      "agent": "台灣精星股務辦事處",
-      "agent_phone": "02-27905885",
       "market": ""
     },
     {
