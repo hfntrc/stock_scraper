@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-29 03:37:13",
+  "updated_at": "2026-07-30 03:26:40",
   "year": 2026,
   "total": 761,
   "data": [
+    {
+      "stock_code": "8163",
+      "company": "達方",
+      "souvenir": "保冰袋(紀念品數量不足時，將提供等值商品)",
+      "latest_buy_date": "2026/03/25",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/27",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/25",
+      "evote_end": "2026/05/24",
+      "agent": "台新證券股務代理部",
+      "agent_phone": "(02)25048125",
+      "market": ""
+    },
     {
       "stock_code": "6531",
       "company": "愛普*",
@@ -10038,21 +10053,6 @@
       "evote_end": "2026/05/23",
       "agent": "台新證券股務代理部",
       "agent_phone": "(02)2504-8125",
-      "market": ""
-    },
-    {
-      "stock_code": "8163",
-      "company": "達方",
-      "souvenir": "保冰袋(紀念品數量不足時，將提供等值商品)",
-      "latest_buy_date": "2026/03/25",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/27",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/25",
-      "evote_end": "2026/05/24",
-      "agent": "台新證券股務代理部",
-      "agent_phone": "(02)25048125",
       "market": ""
     },
     {
