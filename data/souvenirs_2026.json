@@ -1,10 +1,55 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-07-30 03:26:40",
+  "updated_at": "2026-07-31 03:49:22",
   "year": 2026,
   "total": 761,
   "data": [
+    {
+      "stock_code": "3715",
+      "company": "定穎投控",
+      "souvenir": "全家50元禮物卡",
+      "latest_buy_date": "2026/07/30",
+      "proxy_deadline": "",
+      "meeting_date": "2026/09/02",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/08/12",
+      "evote_end": "2026/08/30",
+      "agent": "台新證券股務代理部",
+      "agent_phone": "02-2504-8125",
+      "market": ""
+    },
+    {
+      "stock_code": "4128",
+      "company": "中天",
+      "souvenir": "李時珍舒伏C膠囊30粒/瓶",
+      "latest_buy_date": "2026/07/27",
+      "proxy_deadline": "",
+      "meeting_date": "2026/08/28",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/08/13",
+      "evote_end": "2026/08/25",
+      "agent": "兆豐證券股份有限公司",
+      "agent_phone": "02-3393-0898",
+      "market": ""
+    },
+    {
+      "stock_code": "4195",
+      "company": "基米-創",
+      "souvenir": "醫護醫療用貼布",
+      "latest_buy_date": "2026/04/23",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/26",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/27",
+      "evote_end": "2026/06/23",
+      "agent": "統一綜合證券股務代理部",
+      "agent_phone": "02-2746-3797",
+      "market": ""
+    },
     {
       "stock_code": "8163",
       "company": "達方",
@@ -231,21 +276,6 @@
       "market": ""
     },
     {
-      "stock_code": "3715",
-      "company": "定穎投控",
-      "souvenir": "(開會28日前再行公告)",
-      "latest_buy_date": "2026/07/30",
-      "proxy_deadline": "",
-      "meeting_date": "2026/09/02",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/08/12",
-      "evote_end": "2026/08/30",
-      "agent": "台新證券股務代理部",
-      "agent_phone": "02-2504-8125",
-      "market": ""
-    },
-    {
       "stock_code": "4999",
       "company": "鑫禾",
       "souvenir": "超商咖啡兌換券",
@@ -288,21 +318,6 @@
       "evote_end": "2026/06/22",
       "agent": "台新證券股務代理部",
       "agent_phone": "02-25048125",
-      "market": ""
-    },
-    {
-      "stock_code": "4128",
-      "company": "中天",
-      "souvenir": "(開會28日前再行公告)",
-      "latest_buy_date": "2026/07/27",
-      "proxy_deadline": "",
-      "meeting_date": "2026/08/28",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/08/13",
-      "evote_end": "2026/08/25",
-      "agent": "兆豐證券股份有限公司",
-      "agent_phone": "02-3393-0898",
       "market": ""
     },
     {
@@ -1728,21 +1743,6 @@
       "evote_end": "2026/06/23",
       "agent": "中國信託商業銀行代理部",
       "agent_phone": "6636-5566",
-      "market": ""
-    },
-    {
-      "stock_code": "4195",
-      "company": "基米-創",
-      "souvenir": "醫護醫療用貼布",
-      "latest_buy_date": "2026/04/23",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/26",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/27",
-      "evote_end": "2026/06/23",
-      "agent": "統一綜合證券股務代理部",
-      "agent_phone": "02-2746-3797",
       "market": ""
     },
     {
@@ -6533,7 +6533,7 @@
     {
       "stock_code": "5351",
       "company": "鈺創",
-      "souvenir": "全家便利商店50元商品卡(紀念品數量如有不足,得以價值相當者替代)",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/03/31",
       "proxy_deadline": "",
       "meeting_date": "2026/06/05",
@@ -9068,7 +9068,7 @@
     {
       "stock_code": "2486",
       "company": "一詮",
-      "souvenir": "7-11咖啡卡",
+      "souvenir": "統一中杯拿鐵咖啡卡",
       "latest_buy_date": "2026/03/24",
       "proxy_deadline": "",
       "meeting_date": "2026/05/25",
@@ -9188,7 +9188,7 @@
     {
       "stock_code": "1104",
       "company": "環泥",
-      "souvenir": "統一超商商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/26",
@@ -10778,7 +10778,7 @@
     {
       "stock_code": "2014",
       "company": "中鴻",
-      "souvenir": "統一超商45元咖啡卡",
+      "souvenir": "統一中杯拿鐵咖啡卡",
       "latest_buy_date": "2026/03/19",
       "proxy_deadline": "",
       "meeting_date": "2026/05/22",
