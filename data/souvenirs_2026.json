@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-03 03:53:17",
+  "updated_at": "2026-08-04 03:35:41",
   "year": 2026,
   "total": 761,
   "data": [
+    {
+      "stock_code": "8905",
+      "company": "裕國",
+      "souvenir": "裕國超市商品抵用券$100",
+      "latest_buy_date": "2026/07/30",
+      "proxy_deadline": "",
+      "meeting_date": "2026/09/02",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/08/18",
+      "evote_end": "2026/08/30",
+      "agent": "群益金鼎證券股份有限公司",
+      "agent_phone": "02-27023999",
+      "market": ""
+    },
     {
       "stock_code": "6204",
       "company": "艾華",
@@ -273,21 +288,6 @@
       "evote_end": "2026/06/06",
       "agent": "台新綜合證券股務代理部",
       "agent_phone": "(02)2504-8125",
-      "market": ""
-    },
-    {
-      "stock_code": "8905",
-      "company": "裕國",
-      "souvenir": "(開會28日前再行公告)",
-      "latest_buy_date": "2026/07/30",
-      "proxy_deadline": "",
-      "meeting_date": "2026/09/02",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/08/18",
-      "evote_end": "2026/08/30",
-      "agent": "群益金鼎證券股份有限公司",
-      "agent_phone": "02-27023999",
       "market": ""
     },
     {
@@ -4553,7 +4553,7 @@
     {
       "stock_code": "6167",
       "company": "久正",
-      "souvenir": "環保肥皂（或歷年股東會紀念品或等值商品）",
+      "souvenir": "環保肥皂",
       "latest_buy_date": "2026/04/15",
       "proxy_deadline": "",
       "meeting_date": "2026/06/16",
@@ -5723,7 +5723,7 @@
     {
       "stock_code": "3317",
       "company": "尼克森",
-      "souvenir": "好來輕便組(好來超氟強化琺瑯質牙膏50g+好來經典纖柔軟毛牙刷乙支)(紀念品數量不足時，將以價格相當者替代之)",
+      "souvenir": "好來輕便組",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/11",
@@ -7463,7 +7463,7 @@
     {
       "stock_code": "2449",
       "company": "京元電子",
-      "souvenir": "鋼珠筆組(紀念品數量若有不足，以本公司歷年股東會紀念品替代之。)",
+      "souvenir": "鋼珠筆組",
       "latest_buy_date": "2026/03/26",
       "proxy_deadline": "",
       "meeting_date": "2026/05/29",
