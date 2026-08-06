@@ -1,10 +1,40 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-05 03:31:08",
+  "updated_at": "2026-08-06 03:35:22",
   "year": 2026,
   "total": 761,
   "data": [
+    {
+      "stock_code": "6598",
+      "company": "ABC-KY",
+      "souvenir": "全家超商35元商品卡",
+      "latest_buy_date": "2026/04/08",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/11",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/12",
+      "evote_end": "2026/06/08",
+      "agent": "永豐金證券股份有限公司",
+      "agent_phone": "02-23816288",
+      "market": ""
+    },
+    {
+      "stock_code": "3040",
+      "company": "遠見",
+      "souvenir": "超商禮券",
+      "latest_buy_date": "2026/07/20",
+      "proxy_deadline": "",
+      "meeting_date": "2026/08/21",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/08/06",
+      "evote_end": "2026/08/18",
+      "agent": "元大證券股務代理部",
+      "agent_phone": "02-25865859",
+      "market": ""
+    },
     {
       "stock_code": "8905",
       "company": "裕國",
@@ -363,21 +393,6 @@
       "evote_end": "2026/05/22",
       "agent": "元富證券股份有限公司",
       "agent_phone": "(02)27686668",
-      "market": ""
-    },
-    {
-      "stock_code": "3040",
-      "company": "遠見",
-      "souvenir": "超商禮券",
-      "latest_buy_date": "2026/07/20",
-      "proxy_deadline": "",
-      "meeting_date": "2026/08/21",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/08/06",
-      "evote_end": "2026/08/18",
-      "agent": "元大證券股務代理部",
-      "agent_phone": "02-25865859",
       "market": ""
     },
     {
@@ -1283,7 +1298,7 @@
     {
       "stock_code": "2913",
       "company": "農林",
-      "souvenir": "日月紅茶2.4公克*20入茶包(紀念品數量不足時，將提供等值商品）",
+      "souvenir": "日月紅茶2.4公克*20入茶包",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/11",
@@ -5483,7 +5498,7 @@
     {
       "stock_code": "6170",
       "company": "統振",
-      "souvenir": "澳寶髮膜或等值商品",
+      "souvenir": "澳寶髮膜或等值商品(旅行組1人2罐)",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/11",
@@ -5708,7 +5723,7 @@
     {
       "stock_code": "3323",
       "company": "加百裕",
-      "souvenir": "多功能飲料提袋(紀念品數量如有不足時，得以價值相當者替代)",
+      "souvenir": "多功能飲料提袋",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/11",
@@ -6713,7 +6728,7 @@
     {
       "stock_code": "3306",
       "company": "鼎天",
-      "souvenir": "不鏽鋼杯墊(紀念品不足時，得以等值商品替代)",
+      "souvenir": "不鏽鋼杯墊",
       "latest_buy_date": "2026/04/07",
       "proxy_deadline": "",
       "meeting_date": "2026/06/08",
@@ -7523,7 +7538,7 @@
     {
       "stock_code": "2329",
       "company": "華泰",
-      "souvenir": "3C配件收納包(紀念品數量如有不足時，得以價值相當者替代)",
+      "souvenir": "3C配件收納包",
       "latest_buy_date": "2026/03/26",
       "proxy_deadline": "",
       "meeting_date": "2026/05/29",
@@ -9083,7 +9098,7 @@
     {
       "stock_code": "6761",
       "company": "穩得",
-      "souvenir": "指甲鉗四件式(紀念品如有不足，恕將以同等價值紀念品替代之)",
+      "souvenir": "指甲鉗四件式",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/26",
@@ -10043,7 +10058,7 @@
     {
       "stock_code": "3714",
       "company": "富采",
-      "souvenir": "Ennostar x 懶散兔&啾先生聯名不鏽鋼餐具組(或等值商品替代之)",
+      "souvenir": "Ennostar x 懶散兔&啾先生聯名不鏽鋼餐具組",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/26",
@@ -11043,21 +11058,6 @@
       "evote_end": "2026/05/17",
       "agent": "元大證券股份有限公司",
       "agent_phone": "02-2586-5859",
-      "market": ""
-    },
-    {
-      "stock_code": "6598",
-      "company": "ABC-KY",
-      "souvenir": "全家超商35元商品卡",
-      "latest_buy_date": "2026/04/08",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/11",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/12",
-      "evote_end": "2026/06/08",
-      "agent": "永豐金證券股份有限公司",
-      "agent_phone": "02-23816288",
       "market": ""
     },
     {
