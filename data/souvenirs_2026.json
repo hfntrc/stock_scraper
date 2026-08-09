@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-08 02:20:46",
+  "updated_at": "2026-08-09 02:28:12",
   "year": 2026,
   "total": 762,
   "data": [
@@ -803,7 +803,7 @@
     {
       "stock_code": "3011",
       "company": "今皓",
-      "souvenir": "超商35元商品卡",
+      "souvenir": "全家禮物卡35元",
       "latest_buy_date": "2026/04/28",
       "proxy_deadline": "",
       "meeting_date": "2026/06/30",
@@ -1793,7 +1793,7 @@
     {
       "stock_code": "3128",
       "company": "昇銳",
-      "souvenir": "全家便利商店禮物卡35元",
+      "souvenir": "全家禮物卡35元",
       "latest_buy_date": "2026/04/23",
       "proxy_deadline": "",
       "meeting_date": "2026/06/26",
@@ -2033,7 +2033,7 @@
     {
       "stock_code": "2406",
       "company": "國碩",
-      "souvenir": "統一超商商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/23",
       "proxy_deadline": "",
       "meeting_date": "2026/06/26",
@@ -2123,7 +2123,7 @@
     {
       "stock_code": "2208",
       "company": "台船",
-      "souvenir": "統一超商45元咖啡卡",
+      "souvenir": "統一中杯拿鐵咖啡卡",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/25",
@@ -2258,7 +2258,7 @@
     {
       "stock_code": "6127",
       "company": "九豪",
-      "souvenir": "禮物卡35元",
+      "souvenir": "全家禮物卡35元",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/24",
@@ -2558,7 +2558,7 @@
     {
       "stock_code": "9914",
       "company": "美利達",
-      "souvenir": "統一超商商品卡",
+      "souvenir": "統一商品卡100元",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/24",
@@ -3008,7 +3008,7 @@
     {
       "stock_code": "3499",
       "company": "環天科",
-      "souvenir": "全家超商商品卡35元",
+      "souvenir": "全家禮物卡35元",
       "latest_buy_date": "2026/04/21",
       "proxy_deadline": "",
       "meeting_date": "2026/06/22",
@@ -3533,7 +3533,7 @@
     {
       "stock_code": "5014",
       "company": "建錩",
-      "souvenir": "全家中杯經典美式咖啡券乙張",
+      "souvenir": "全家中杯美式咖啡卡",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/24",
@@ -4928,7 +4928,7 @@
     {
       "stock_code": "3228",
       "company": "金麗科",
-      "souvenir": "統一超商咖啡提貨卡(中杯美式35元)",
+      "souvenir": "統一中杯美式咖啡卡",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/11",
@@ -5033,7 +5033,7 @@
     {
       "stock_code": "1570",
       "company": "力肯",
-      "souvenir": "中杯美式咖啡卡",
+      "souvenir": "統一中杯美式咖啡卡",
       "latest_buy_date": "2026/03/18",
       "proxy_deadline": "",
       "meeting_date": "2026/05/20",
@@ -5048,7 +5048,7 @@
     {
       "stock_code": "4977",
       "company": "眾達-KY",
-      "souvenir": "全家35元禮物卡",
+      "souvenir": "全家禮物卡35元",
       "latest_buy_date": "2026/04/07",
       "proxy_deadline": "",
       "meeting_date": "2026/06/08",
@@ -7028,7 +7028,7 @@
     {
       "stock_code": "5609",
       "company": "中菲行",
-      "souvenir": "鑰匙圈",
+      "souvenir": "鑰匙圈(改發餐具組)",
       "latest_buy_date": "2026/03/31",
       "proxy_deadline": "",
       "meeting_date": "2026/06/01",
