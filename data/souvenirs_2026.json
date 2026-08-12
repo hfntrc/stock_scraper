@@ -1,10 +1,40 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-11 02:26:49",
+  "updated_at": "2026-08-12 02:43:58",
   "year": 2026,
   "total": 762,
   "data": [
+    {
+      "stock_code": "4111",
+      "company": "濟生",
+      "souvenir": "靚亮膠原蛋白",
+      "latest_buy_date": "2026/04/08",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/10",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/11",
+      "evote_end": "2026/06/07",
+      "agent": "元大證券股份有限公司",
+      "agent_phone": "02-25865859",
+      "market": ""
+    },
+    {
+      "stock_code": "6284",
+      "company": "佳邦",
+      "souvenir": "鹼性電池一組",
+      "latest_buy_date": "2026/04/09",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/12",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/13",
+      "evote_end": "2026/06/09",
+      "agent": "元大證券股份有限公司股務代理部",
+      "agent_phone": "(02)2586-5859",
+      "market": ""
+    },
     {
       "stock_code": "4546",
       "company": "長亨",
@@ -5136,21 +5166,6 @@
       "market": ""
     },
     {
-      "stock_code": "6284",
-      "company": "佳邦",
-      "souvenir": "鹼性電池一組",
-      "latest_buy_date": "2026/04/09",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/12",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/13",
-      "evote_end": "2026/06/09",
-      "agent": "元大證券股份有限公司股務代理部",
-      "agent_phone": "(02)2586-5859",
-      "market": ""
-    },
-    {
       "stock_code": "6218",
       "company": "豪勉",
       "souvenir": "統一商品卡35元",
@@ -6618,21 +6633,6 @@
       "evote_end": "2026/06/06",
       "agent": "凱基證券股份有限公司股務代理部",
       "agent_phone": "23892999",
-      "market": ""
-    },
-    {
-      "stock_code": "4111",
-      "company": "濟生",
-      "souvenir": "靚亮膠原蛋白",
-      "latest_buy_date": "2026/04/08",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/10",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/11",
-      "evote_end": "2026/06/07",
-      "agent": "元大證券股份有限公司",
-      "agent_phone": "02-25865859",
       "market": ""
     },
     {
