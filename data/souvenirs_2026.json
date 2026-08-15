@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-14 02:44:47",
+  "updated_at": "2026-08-15 01:49:09",
   "year": 2026,
-  "total": 766,
+  "total": 767,
   "data": [
+    {
+      "stock_code": "6695",
+      "company": "芯鼎",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/08/28",
+      "proxy_deadline": "",
+      "meeting_date": "2026/10/01",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/09/16",
+      "evote_end": "2026/09/28",
+      "agent": "福邦證券股份有限公司股務代理部",
+      "agent_phone": "(02)2371-1658",
+      "market": ""
+    },
     {
       "stock_code": "3587",
       "company": "閎康",
@@ -2258,7 +2273,7 @@
     {
       "stock_code": "4174",
       "company": "浩鼎",
-      "souvenir": "超商35元禮物卡",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/23",
       "proxy_deadline": "",
       "meeting_date": "2026/06/26",
@@ -2378,7 +2393,7 @@
     {
       "stock_code": "3268",
       "company": "海德威",
-      "souvenir": "7-11商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/24",
@@ -2828,7 +2843,7 @@
     {
       "stock_code": "3455",
       "company": "由田",
-      "souvenir": "7-11商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/24",
@@ -7283,7 +7298,7 @@
     {
       "stock_code": "8119",
       "company": "公信",
-      "souvenir": "超商商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/03/31",
       "proxy_deadline": "",
       "meeting_date": "2026/06/04",
