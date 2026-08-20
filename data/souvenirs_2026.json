@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-19 01:52:29",
+  "updated_at": "2026-08-20 01:51:07",
   "year": 2026,
   "total": 767,
   "data": [
+    {
+      "stock_code": "2314",
+      "company": "台揚",
+      "souvenir": "英國貝爾熊香水洗衣精補充包",
+      "latest_buy_date": "2026/04/23",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/26",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/27",
+      "evote_end": "2026/06/23",
+      "agent": "台新綜合證券(股)公司股務代理部",
+      "agent_phone": "02-25048125",
+      "market": ""
+    },
     {
       "stock_code": "8905",
       "company": "裕國",
@@ -3381,21 +3396,6 @@
       "market": ""
     },
     {
-      "stock_code": "2314",
-      "company": "台揚",
-      "souvenir": "英國貝爾熊香水洗衣精補充包",
-      "latest_buy_date": "2026/04/23",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/26",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/27",
-      "evote_end": "2026/06/23",
-      "agent": "台新綜合證券(股)公司股務代理部",
-      "agent_phone": "02-25048125",
-      "market": ""
-    },
-    {
       "stock_code": "1712",
       "company": "興農",
       "souvenir": "一滴淨奈米碳酸抗菌洗手乳1瓶",
@@ -4523,7 +4523,7 @@
     {
       "stock_code": "3060",
       "company": "銘異",
-      "souvenir": "全家便利商店50元禮物卡",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/04/15",
       "proxy_deadline": "",
       "meeting_date": "2026/06/17",
