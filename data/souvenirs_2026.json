@@ -1,10 +1,70 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-20 01:51:07",
+  "updated_at": "2026-08-21 01:57:01",
   "year": 2026,
-  "total": 767,
+  "total": 768,
   "data": [
+    {
+      "stock_code": "7516",
+      "company": "清淨海",
+      "souvenir": "清淨海MIIFLORA香水洗髮精720g",
+      "latest_buy_date": "2026/04/09",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/12",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/13",
+      "evote_end": "2026/06/09",
+      "agent": "兆豐證券股份有限公司股務代理部",
+      "agent_phone": "(02)3393-0898",
+      "market": ""
+    },
+    {
+      "stock_code": "2332",
+      "company": "友訊",
+      "souvenir": "常健順暢益生菌",
+      "latest_buy_date": "2026/03/24",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/25",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/25",
+      "evote_end": "2026/05/22",
+      "agent": "群益金鼎證券股份有限公司",
+      "agent_phone": "02-2703-5000",
+      "market": ""
+    },
+    {
+      "stock_code": "5202",
+      "company": "力新",
+      "souvenir": "常健順暢益生菌",
+      "latest_buy_date": "2026/03/18",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/21",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/21",
+      "evote_end": "2026/05/18",
+      "agent": "群益金鼎證券股份有限公司",
+      "agent_phone": "(02)2702-3999",
+      "market": ""
+    },
+    {
+      "stock_code": "2425",
+      "company": "承啟",
+      "souvenir": "統一超商35元商品卡",
+      "latest_buy_date": "2026/09/04",
+      "proxy_deadline": "",
+      "meeting_date": "2026/10/08",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/09/19",
+      "evote_end": "2026/10/05",
+      "agent": "福邦證券股份有限公司",
+      "agent_phone": "02-23711658",
+      "market": ""
+    },
     {
       "stock_code": "2314",
       "company": "台揚",
@@ -383,7 +443,7 @@
     {
       "stock_code": "5398",
       "company": "慕康生醫",
-      "souvenir": "超商50元商品卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/07/06",
       "proxy_deadline": "",
       "meeting_date": "2026/08/07",
@@ -1013,7 +1073,7 @@
     {
       "stock_code": "4960",
       "company": "誠美材",
-      "souvenir": "統一超商100元商品卡",
+      "souvenir": "統一商品卡100元",
       "latest_buy_date": "2026/05/27",
       "proxy_deadline": "",
       "meeting_date": "2026/06/29",
@@ -1658,7 +1718,7 @@
     {
       "stock_code": "4960",
       "company": "誠美材",
-      "souvenir": "統一超商100元商品卡(或以等值商品替代之)",
+      "souvenir": "統一商品卡100元",
       "latest_buy_date": "2026/04/28",
       "proxy_deadline": "",
       "meeting_date": "2026/06/30",
@@ -2468,7 +2528,7 @@
     {
       "stock_code": "8436",
       "company": "大江",
-      "souvenir": "大江精選福袋",
+      "souvenir": "大江精選福袋 (藻油)",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/23",
@@ -3113,7 +3173,7 @@
     {
       "stock_code": "4108",
       "company": "懷特",
-      "souvenir": "清潔品",
+      "souvenir": "清潔品(補色筆)",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/09",
@@ -3908,7 +3968,7 @@
     {
       "stock_code": "6698",
       "company": "旭暉應材",
-      "souvenir": "全家便利商店35元禮物卡",
+      "souvenir": "全家禮物卡35元",
       "latest_buy_date": "2026/04/15",
       "proxy_deadline": "",
       "meeting_date": "2026/06/17",
@@ -5208,21 +5268,6 @@
       "evote_end": "2026/06/09",
       "agent": "兆豐證券股份有限公司股務代理部",
       "agent_phone": "(02)33930898",
-      "market": ""
-    },
-    {
-      "stock_code": "7516",
-      "company": "清淨海",
-      "souvenir": "清淨海MIIFLORA香水洗髮精720g",
-      "latest_buy_date": "2026/04/09",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/12",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/13",
-      "evote_end": "2026/06/09",
-      "agent": "兆豐證券股份有限公司股務代理部",
-      "agent_phone": "(02)3393-0898",
       "market": ""
     },
     {
@@ -8556,21 +8601,6 @@
       "market": ""
     },
     {
-      "stock_code": "2332",
-      "company": "友訊",
-      "souvenir": "常健順暢益生菌",
-      "latest_buy_date": "2026/03/24",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/25",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/25",
-      "evote_end": "2026/05/22",
-      "agent": "群益金鼎證券股份有限公司",
-      "agent_phone": "02-2703-5000",
-      "market": ""
-    },
-    {
       "stock_code": "8936",
       "company": "國統",
       "souvenir": "統一中杯美式咖啡卡",
@@ -10578,21 +10608,6 @@
       "evote_end": "2026/05/18",
       "agent": "統一綜合證券股份有限公司",
       "agent_phone": "(02)2746-3797",
-      "market": ""
-    },
-    {
-      "stock_code": "5202",
-      "company": "力新",
-      "souvenir": "常健順暢益生菌",
-      "latest_buy_date": "2026/03/18",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/21",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/21",
-      "evote_end": "2026/05/18",
-      "agent": "群益金鼎證券股份有限公司",
-      "agent_phone": "(02)2702-3999",
       "market": ""
     },
     {
