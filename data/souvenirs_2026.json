@@ -1,10 +1,55 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-21 01:57:01",
+  "updated_at": "2026-08-22 01:49:36",
   "year": 2026,
   "total": 768,
   "data": [
+    {
+      "stock_code": "3026",
+      "company": "禾伸堂",
+      "souvenir": "擦手巾(紀念品數量如有不足時，得以價值相當者替代)",
+      "latest_buy_date": "2026/03/24",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/25",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/25",
+      "evote_end": "2026/05/22",
+      "agent": "中國信託商業銀行代理部",
+      "agent_phone": "(02)6636-5566",
+      "market": ""
+    },
+    {
+      "stock_code": "6191",
+      "company": "精成科",
+      "souvenir": "FDK三號鹼性電池1組(4入)",
+      "latest_buy_date": "2026/04/15",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/18",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/19",
+      "evote_end": "2026/06/15",
+      "agent": "精成科技股份有限公司股務辦事處",
+      "agent_phone": "(02)27905885",
+      "market": ""
+    },
+    {
+      "stock_code": "3014",
+      "company": "聯陽",
+      "souvenir": "香皂",
+      "latest_buy_date": "2026/03/25",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/28",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/28",
+      "evote_end": "2026/05/25",
+      "agent": "宏遠證券股份有限公司",
+      "agent_phone": "(02)23268818",
+      "market": ""
+    },
     {
       "stock_code": "7516",
       "company": "清淨海",
@@ -768,21 +813,6 @@
       "evote_end": "2026/06/08",
       "agent": "信昌電子陶瓷(股)公司股務辦事處",
       "agent_phone": "02-27905885",
-      "market": ""
-    },
-    {
-      "stock_code": "6191",
-      "company": "精成科",
-      "souvenir": "FDK三號鹼性電池1組(4入)",
-      "latest_buy_date": "2026/04/15",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/18",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/19",
-      "evote_end": "2026/06/15",
-      "agent": "精成科技股份有限公司股務辦事處",
-      "agent_phone": "(02)27905885",
       "market": ""
     },
     {
@@ -7896,21 +7926,6 @@
       "market": ""
     },
     {
-      "stock_code": "3014",
-      "company": "聯陽",
-      "souvenir": "香皂",
-      "latest_buy_date": "2026/03/25",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/28",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/28",
-      "evote_end": "2026/05/25",
-      "agent": "宏遠證券股份有限公司",
-      "agent_phone": "(02)23268818",
-      "market": ""
-    },
-    {
       "stock_code": "3221",
       "company": "台嘉碩",
       "souvenir": "指甲剪套裝折疊包",
@@ -9183,21 +9198,6 @@
       "evote_end": "2026/05/22",
       "agent": "宏遠證券股份有限公司",
       "agent_phone": "(02)2700-8899",
-      "market": ""
-    },
-    {
-      "stock_code": "3026",
-      "company": "禾伸堂",
-      "souvenir": "擦手巾(紀念品數量如有不足時，得以價值相當者替代)",
-      "latest_buy_date": "2026/03/24",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/25",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/25",
-      "evote_end": "2026/05/22",
-      "agent": "中國信託商業銀行代理部",
-      "agent_phone": "(02)6636-5566",
       "market": ""
     },
     {
