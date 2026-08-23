@@ -1,10 +1,55 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-22 01:49:36",
+  "updated_at": "2026-08-23 01:59:27",
   "year": 2026,
   "total": 768,
   "data": [
+    {
+      "stock_code": "6173",
+      "company": "信昌電",
+      "souvenir": "FDK三號鹼性電池一組(4入)",
+      "latest_buy_date": "2026/04/08",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/11",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/12",
+      "evote_end": "2026/06/08",
+      "agent": "信昌電子陶瓷(股)公司股務辦事處",
+      "agent_phone": "02-27905885",
+      "market": ""
+    },
+    {
+      "stock_code": "4114",
+      "company": "健喬",
+      "souvenir": "金盞花葉黃素複方咀嚼錠",
+      "latest_buy_date": "2026/03/25",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/28",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/28",
+      "evote_end": "2026/05/25",
+      "agent": "元大證券股份有限公司",
+      "agent_phone": "(02)2586-5859",
+      "market": ""
+    },
+    {
+      "stock_code": "6461",
+      "company": "益得",
+      "souvenir": "金盞花葉黃素複方咀嚼錠",
+      "latest_buy_date": "2026/03/25",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/27",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/27",
+      "evote_end": "2026/05/24",
+      "agent": "元大證券(股)公司股務代理部",
+      "agent_phone": "02-25865859",
+      "market": ""
+    },
     {
       "stock_code": "3026",
       "company": "禾伸堂",
@@ -338,7 +383,7 @@
     {
       "stock_code": "6204",
       "company": "艾華",
-      "souvenir": "全家便利商店禮物卡50元",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/05/27",
       "proxy_deadline": "",
       "meeting_date": "2026/07/28",
@@ -638,7 +683,7 @@
     {
       "stock_code": "4147",
       "company": "中裕",
-      "souvenir": "超商50元商品卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/03/24",
       "proxy_deadline": "",
       "meeting_date": "2026/05/25",
@@ -798,21 +843,6 @@
       "evote_end": "2026/06/15",
       "agent": "山隆通運股份有限公司",
       "agent_phone": "(02)22225131",
-      "market": ""
-    },
-    {
-      "stock_code": "6173",
-      "company": "信昌電",
-      "souvenir": "FDK三號鹼性電池一組(4入)",
-      "latest_buy_date": "2026/04/08",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/11",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/12",
-      "evote_end": "2026/06/08",
-      "agent": "信昌電子陶瓷(股)公司股務辦事處",
-      "agent_phone": "02-27905885",
       "market": ""
     },
     {
@@ -2543,7 +2573,7 @@
     {
       "stock_code": "9902",
       "company": "台火",
-      "souvenir": "香皂",
+      "souvenir": "清新植萃精華皂二入盒",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/23",
@@ -3338,7 +3368,7 @@
     {
       "stock_code": "5222",
       "company": "全訊",
-      "souvenir": "超商50元商品卡",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/04/15",
       "proxy_deadline": "",
       "meeting_date": "2026/06/18",
@@ -6293,7 +6323,7 @@
     {
       "stock_code": "8034",
       "company": "榮群",
-      "souvenir": "香皂",
+      "souvenir": "蜂王草本皂80g",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/11",
@@ -6338,7 +6368,7 @@
     {
       "stock_code": "2485",
       "company": "兆赫",
-      "souvenir": "統一超商50元商品卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/10",
@@ -7478,7 +7508,7 @@
     {
       "stock_code": "8933",
       "company": "愛地雅",
-      "souvenir": "香皂",
+      "souvenir": "伊莎貝爾櫻花抗菌皂",
       "latest_buy_date": "2026/03/26",
       "proxy_deadline": "",
       "meeting_date": "2026/05/29",
@@ -8046,21 +8076,6 @@
       "market": ""
     },
     {
-      "stock_code": "4114",
-      "company": "健喬",
-      "souvenir": "金盞花葉黃素複方咀嚼錠",
-      "latest_buy_date": "2026/03/25",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/28",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/28",
-      "evote_end": "2026/05/25",
-      "agent": "元大證券股份有限公司",
-      "agent_phone": "(02)2586-5859",
-      "market": ""
-    },
-    {
       "stock_code": "4105",
       "company": "東洋",
       "souvenir": "創益倍力莓(6入/盒)",
@@ -8478,21 +8493,6 @@
       "evote_end": "2026/05/24",
       "agent": "元大證券股份有限公司股務代理部",
       "agent_phone": "(02)25865859",
-      "market": ""
-    },
-    {
-      "stock_code": "6461",
-      "company": "益得",
-      "souvenir": "金盞花葉黃素複方咀嚼錠",
-      "latest_buy_date": "2026/03/25",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/27",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/27",
-      "evote_end": "2026/05/24",
-      "agent": "元大證券(股)公司股務代理部",
-      "agent_phone": "02-25865859",
       "market": ""
     },
     {
@@ -9068,7 +9068,7 @@
     {
       "stock_code": "5230",
       "company": "雷笛克光學",
-      "souvenir": "香皂",
+      "souvenir": "蜂王 拾光漫遊經典皂二入盒",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/26",
@@ -9833,7 +9833,7 @@
     {
       "stock_code": "3176",
       "company": "基亞",
-      "souvenir": "蜂王皂禮盒",
+      "souvenir": "蜂王 拾光漫遊經典皂二入盒",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/26",
@@ -10043,7 +10043,7 @@
     {
       "stock_code": "4102",
       "company": "永日",
-      "souvenir": "香皂",
+      "souvenir": "蜂王清新植感草本皂",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/28",
