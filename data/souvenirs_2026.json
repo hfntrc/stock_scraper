@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-23 01:59:27",
+  "updated_at": "2026-08-24 01:56:57",
   "year": 2026,
   "total": 768,
   "data": [
@@ -2333,7 +2333,7 @@
     {
       "stock_code": "8105",
       "company": "凌巨",
-      "souvenir": "統一超商50元商品卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/25",
@@ -3218,7 +3218,7 @@
     {
       "stock_code": "6130",
       "company": "上亞科技",
-      "souvenir": "35元超商禮物卡",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/21",
       "proxy_deadline": "",
       "meeting_date": "2026/06/22",
@@ -3248,7 +3248,7 @@
     {
       "stock_code": "8027",
       "company": "鈦昇",
-      "souvenir": "便利商店禮物卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/04/15",
       "proxy_deadline": "",
       "meeting_date": "2026/06/18",
@@ -3593,7 +3593,7 @@
     {
       "stock_code": "4741",
       "company": "泓瀚",
-      "souvenir": "統一超商50元商品卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/04/21",
       "proxy_deadline": "",
       "meeting_date": "2026/06/22",
@@ -3998,7 +3998,7 @@
     {
       "stock_code": "6885",
       "company": "全福生技",
-      "souvenir": "商品卡35元",
+      "souvenir": "全家禮物卡35元",
       "latest_buy_date": "2026/04/09",
       "proxy_deadline": "",
       "meeting_date": "2026/06/12",
@@ -5303,7 +5303,7 @@
     {
       "stock_code": "8088",
       "company": "品安",
-      "souvenir": "統一超商商品卡35元",
+      "souvenir": "統一商品卡35元",
       "latest_buy_date": "2026/04/09",
       "proxy_deadline": "",
       "meeting_date": "2026/06/12",
