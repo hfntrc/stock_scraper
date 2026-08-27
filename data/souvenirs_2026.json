@@ -1,10 +1,40 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-26 01:57:59",
+  "updated_at": "2026-08-27 09:45:22",
   "year": 2026,
   "total": 768,
   "data": [
+    {
+      "stock_code": "6531",
+      "company": "愛普*",
+      "souvenir": "統一超商50元商品卡",
+      "latest_buy_date": "2026/08/10",
+      "proxy_deadline": "",
+      "meeting_date": "2026/09/11",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/08/27",
+      "evote_end": "2026/09/08",
+      "agent": "凱基證券股份有限公司股務代理部",
+      "agent_phone": "02-2389-2999",
+      "market": ""
+    },
+    {
+      "stock_code": "3050",
+      "company": "鈺德",
+      "souvenir": "洗衣機槽清洗錠",
+      "latest_buy_date": "2026/04/15",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/17",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/16",
+      "evote_end": "2026/06/14",
+      "agent": "群益金鼎證券股份有限公司",
+      "agent_phone": "02-27023999",
+      "market": ""
+    },
     {
       "stock_code": "6173",
       "company": "信昌電",
@@ -438,21 +468,6 @@
       "evote_end": "2026/05/24",
       "agent": "台新證券股務代理部",
       "agent_phone": "(02)25048125",
-      "market": ""
-    },
-    {
-      "stock_code": "6531",
-      "company": "愛普*",
-      "souvenir": "統一超商50元商品卡",
-      "latest_buy_date": "2026/08/10",
-      "proxy_deadline": "",
-      "meeting_date": "2026/09/11",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/08/27",
-      "evote_end": "2026/09/08",
-      "agent": "凱基證券股份有限公司股務代理部",
-      "agent_phone": "02-2389-2999",
       "market": ""
     },
     {
@@ -1533,21 +1548,6 @@
       "evote_end": "2026/06/21",
       "agent": "台新綜合證券股份有限公司",
       "agent_phone": "02-25048125",
-      "market": ""
-    },
-    {
-      "stock_code": "3050",
-      "company": "鈺德",
-      "souvenir": "洗衣機槽清洗錠",
-      "latest_buy_date": "2026/04/15",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/17",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/16",
-      "evote_end": "2026/06/14",
-      "agent": "群益金鼎證券股份有限公司",
-      "agent_phone": "02-27023999",
       "market": ""
     },
     {
@@ -5198,7 +5198,7 @@
     {
       "stock_code": "1737",
       "company": "臺鹽",
-      "souvenir": "台塩生技UP機能吸凍1盒(數量如有不足， 得以價值相當者替代之)及台塩線上股東專區購物金2,000元",
+      "souvenir": "台塩生技UP機能吸凍1盒及台塩線上股東專區購物金2,000元(替品牙膏)",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/24",
@@ -10883,7 +10883,7 @@
     {
       "stock_code": "3090",
       "company": "日電貿",
-      "souvenir": "無患子潔手慕斯，紀念品不足時得以等值商品替代",
+      "souvenir": "無患子潔手慕斯",
       "latest_buy_date": "2026/03/19",
       "proxy_deadline": "",
       "meeting_date": "2026/05/22",
