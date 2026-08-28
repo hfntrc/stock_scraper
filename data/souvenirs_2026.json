@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-08-27 09:45:22",
+  "updated_at": "2026-08-28 11:22:02",
   "year": 2026,
   "total": 768,
   "data": [
@@ -18,6 +18,21 @@
       "evote_end": "2026/09/08",
       "agent": "凱基證券股份有限公司股務代理部",
       "agent_phone": "02-2389-2999",
+      "market": ""
+    },
+    {
+      "stock_code": "4563",
+      "company": "百德",
+      "souvenir": "全家禮物卡50元",
+      "latest_buy_date": "2026/08/21",
+      "proxy_deadline": "",
+      "meeting_date": "2026/09/24",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/09/09",
+      "evote_end": "2026/09/21",
+      "agent": "富邦綜合證券股份有限公司",
+      "agent_phone": "02-23611300",
       "market": ""
     },
     {
@@ -258,21 +273,6 @@
       "evote_end": "2026/09/28",
       "agent": "元大證券股份有限公司",
       "agent_phone": "02-2586-5859",
-      "market": ""
-    },
-    {
-      "stock_code": "4563",
-      "company": "百德",
-      "souvenir": "商品卡",
-      "latest_buy_date": "2026/08/21",
-      "proxy_deadline": "",
-      "meeting_date": "2026/09/24",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/09/09",
-      "evote_end": "2026/09/21",
-      "agent": "富邦綜合證券股份有限公司",
-      "agent_phone": "02-23611300",
       "market": ""
     },
     {
@@ -2107,7 +2107,7 @@
     },
     {
       "stock_code": "6696",
-      "company": "仁新",
+      "company": "仁新*",
       "souvenir": "Tommy Gummy - 葉黃素+枸杞軟糖",
       "latest_buy_date": "2026/04/28",
       "proxy_deadline": "",
