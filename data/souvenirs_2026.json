@@ -1,10 +1,40 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-09-02 04:31:20",
+  "updated_at": "2026-09-03 04:21:43",
   "year": 2026,
-  "total": 768,
+  "total": 769,
   "data": [
+    {
+      "stock_code": "6588",
+      "company": "東典光電",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/09/23",
+      "proxy_deadline": "",
+      "meeting_date": "2026/10/29",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/10/14",
+      "evote_end": "2026/10/26",
+      "agent": "兆豐證券股份有限公司股務代理部",
+      "agent_phone": "(02)3393-089",
+      "market": ""
+    },
+    {
+      "stock_code": "6695",
+      "company": "芯鼎",
+      "souvenir": "全家便利商店35元禮物卡",
+      "latest_buy_date": "2026/08/28",
+      "proxy_deadline": "",
+      "meeting_date": "2026/10/01",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/09/16",
+      "evote_end": "2026/09/28",
+      "agent": "福邦證券股份有限公司股務代理部",
+      "agent_phone": "(02)2371-1658",
+      "market": ""
+    },
     {
       "stock_code": "3587",
       "company": "閎康",
@@ -243,21 +273,6 @@
       "evote_end": "2026/08/30",
       "agent": "群益金鼎證券股份有限公司",
       "agent_phone": "02-27023999",
-      "market": ""
-    },
-    {
-      "stock_code": "6695",
-      "company": "芯鼎",
-      "souvenir": "(開會28日前再行公告)",
-      "latest_buy_date": "2026/08/28",
-      "proxy_deadline": "",
-      "meeting_date": "2026/10/01",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/09/16",
-      "evote_end": "2026/09/28",
-      "agent": "福邦證券股份有限公司股務代理部",
-      "agent_phone": "(02)2371-1658",
       "market": ""
     },
     {
