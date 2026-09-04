@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-09-03 04:21:43",
+  "updated_at": "2026-09-04 04:30:01",
   "year": 2026,
-  "total": 769,
+  "total": 770,
   "data": [
+    {
+      "stock_code": "3712",
+      "company": "永崴投控",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/09/17",
+      "proxy_deadline": "",
+      "meeting_date": "2026/10/21",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/10/06",
+      "evote_end": "2026/10/18",
+      "agent": "福邦證券股份有限公司",
+      "agent_phone": "23711658",
+      "market": ""
+    },
     {
       "stock_code": "6588",
       "company": "東典光電",
