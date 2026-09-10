@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-09-09 04:39:40",
+  "updated_at": "2026-09-10 04:40:16",
   "year": 2026,
-  "total": 770,
+  "total": 771,
   "data": [
+    {
+      "stock_code": "6160",
+      "company": "欣技",
+      "souvenir": "7-11(50元商品卡)",
+      "latest_buy_date": "2026/09/23",
+      "proxy_deadline": "",
+      "meeting_date": "2026/10/29",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/10/14",
+      "evote_end": "2026/10/26",
+      "agent": "元大證券股份有限公司",
+      "agent_phone": "02-25865859",
+      "market": ""
+    },
     {
       "stock_code": "6695",
       "company": "芯鼎",
@@ -4477,7 +4492,7 @@
     },
     {
       "stock_code": "1721",
-      "company": "三晃",
+      "company": "國慶科技",
       "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/04/15",
       "proxy_deadline": "",
