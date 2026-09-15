@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-09-14 04:53:36",
+  "updated_at": "2026-09-15 04:52:30",
   "year": 2026,
   "total": 771,
   "data": [
+    {
+      "stock_code": "3587",
+      "company": "閎康",
+      "souvenir": "全家50元商品卡",
+      "latest_buy_date": "2026/08/27",
+      "proxy_deadline": "",
+      "meeting_date": "2026/09/30",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/09/15",
+      "evote_end": "2026/09/27",
+      "agent": "富邦綜合證券股份有限公司",
+      "agent_phone": "02-23611300",
+      "market": ""
+    },
     {
       "stock_code": "6160",
       "company": "欣技",
@@ -78,21 +93,6 @@
       "evote_end": "2026/10/26",
       "agent": "兆豐證券股份有限公司股務代理部",
       "agent_phone": "(02)3393-089",
-      "market": ""
-    },
-    {
-      "stock_code": "3587",
-      "company": "閎康",
-      "souvenir": "全家50元商品卡",
-      "latest_buy_date": "2026/08/27",
-      "proxy_deadline": "",
-      "meeting_date": "2026/09/30",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/09/15",
-      "evote_end": "2026/09/27",
-      "agent": "富邦綜合證券股份有限公司",
-      "agent_phone": "02-23611300",
       "market": ""
     },
     {
