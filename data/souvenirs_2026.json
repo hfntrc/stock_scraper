@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-09-15 04:52:30",
+  "updated_at": "2026-09-16 04:47:23",
   "year": 2026,
   "total": 771,
   "data": [
+    {
+      "stock_code": "1909",
+      "company": "榮成",
+      "souvenir": "環保杯",
+      "latest_buy_date": "2026/08/28",
+      "proxy_deadline": "",
+      "meeting_date": "2026/10/01",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/09/16",
+      "evote_end": "2026/09/28",
+      "agent": "元大證券股份有限公司",
+      "agent_phone": "02-2586-5859",
+      "market": ""
+    },
     {
       "stock_code": "3587",
       "company": "閎康",
@@ -303,21 +318,6 @@
       "evote_end": "2026/08/30",
       "agent": "群益金鼎證券股份有限公司",
       "agent_phone": "02-27023999",
-      "market": ""
-    },
-    {
-      "stock_code": "1909",
-      "company": "榮成",
-      "souvenir": "環保杯",
-      "latest_buy_date": "2026/08/28",
-      "proxy_deadline": "",
-      "meeting_date": "2026/10/01",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/09/16",
-      "evote_end": "2026/09/28",
-      "agent": "元大證券股份有限公司",
-      "agent_phone": "02-2586-5859",
       "market": ""
     },
     {
