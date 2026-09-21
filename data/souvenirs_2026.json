@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-09-20 04:52:23",
+  "updated_at": "2026-09-21 04:53:21",
   "year": 2026,
   "total": 771,
   "data": [
@@ -368,7 +368,7 @@
     {
       "stock_code": "3715",
       "company": "定穎投控",
-      "souvenir": "全家50元禮物卡",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/07/30",
       "proxy_deadline": "",
       "meeting_date": "2026/09/02",
@@ -458,7 +458,7 @@
     {
       "stock_code": "3040",
       "company": "遠見",
-      "souvenir": "超商禮券",
+      "souvenir": "統一商品卡100元",
       "latest_buy_date": "2026/07/20",
       "proxy_deadline": "",
       "meeting_date": "2026/08/21",
@@ -2123,7 +2123,7 @@
     {
       "stock_code": "3025",
       "company": "星通",
-      "souvenir": "統一超商商品券50元(紀念品如有不足時，得以等值商品替代之)",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/04/23",
       "proxy_deadline": "",
       "meeting_date": "2026/06/26",
@@ -3653,7 +3653,7 @@
     {
       "stock_code": "6793",
       "company": "天力離岸",
-      "souvenir": "超商50元商品卡",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/04/22",
       "proxy_deadline": "",
       "meeting_date": "2026/06/23",
@@ -3968,7 +3968,7 @@
     {
       "stock_code": "5272",
       "company": "笙科",
-      "souvenir": "全家禮物卡50元(紀念品不足時以等值商品替代)",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/26",
@@ -6638,7 +6638,7 @@
     {
       "stock_code": "6126",
       "company": "信音",
-      "souvenir": "超商禮物卡50元",
+      "souvenir": "全家禮物卡50元",
       "latest_buy_date": "2026/04/07",
       "proxy_deadline": "",
       "meeting_date": "2026/06/08",
@@ -9473,7 +9473,7 @@
     {
       "stock_code": "2504",
       "company": "國產",
-      "souvenir": "7-11商品卡50元",
+      "souvenir": "統一商品卡50元",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/28",
@@ -10178,7 +10178,7 @@
     {
       "stock_code": "3591",
       "company": "艾笛森",
-      "souvenir": "統一超商20元商品卡",
+      "souvenir": "統一商品卡20元",
       "latest_buy_date": "2026/03/25",
       "proxy_deadline": "",
       "meeting_date": "2026/05/28",
