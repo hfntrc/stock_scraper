@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-09-21 04:53:21",
+  "updated_at": "2026-09-22 04:52:44",
   "year": 2026,
   "total": 771,
   "data": [
@@ -6338,7 +6338,7 @@
     {
       "stock_code": "2493",
       "company": "揚博",
-      "souvenir": "保溫保冷袋(紀念品數量如有不足，得以價值相當者替代之)",
+      "souvenir": "保溫保冷袋",
       "latest_buy_date": "2026/04/08",
       "proxy_deadline": "",
       "meeting_date": "2026/06/11",
