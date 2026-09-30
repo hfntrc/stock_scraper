@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-09-29 05:42:03",
+  "updated_at": "2026-09-30 05:30:31",
   "year": 2026,
-  "total": 772,
+  "total": 773,
   "data": [
+    {
+      "stock_code": "3520",
+      "company": "華盈",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/10/15",
+      "proxy_deadline": "",
+      "meeting_date": "2026/11/18",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/11/03",
+      "evote_end": "2026/11/15",
+      "agent": "國票綜合證券(股)公司股務代理部",
+      "agent_phone": "02-2528-8988",
+      "market": ""
+    },
     {
       "stock_code": "6532",
       "company": "瑞耘",
