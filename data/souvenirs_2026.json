@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-10-01 05:49:07",
+  "updated_at": "2026-10-02 05:34:23",
   "year": 2026,
-  "total": 773,
+  "total": 774,
   "data": [
+    {
+      "stock_code": "1527",
+      "company": "鑽全",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/10/16",
+      "proxy_deadline": "",
+      "meeting_date": "2026/11/19",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/11/04",
+      "evote_end": "2026/11/16",
+      "agent": "群益金鼎證券股份有限公司",
+      "agent_phone": "(02)27023999",
+      "market": ""
+    },
     {
       "stock_code": "3520",
       "company": "華盈",
