@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-10-15 04:35:19",
+  "updated_at": "2026-10-16 04:29:01",
   "year": 2026,
   "total": 775,
   "data": [
+    {
+      "stock_code": "1584",
+      "company": "精剛",
+      "souvenir": "順暢益生菌",
+      "latest_buy_date": "2026/03/25",
+      "proxy_deadline": "",
+      "meeting_date": "2026/05/28",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/04/28",
+      "evote_end": "2026/05/25",
+      "agent": "凱基證券股份有限公司",
+      "agent_phone": "02-23892999",
+      "market": ""
+    },
     {
       "stock_code": "3520",
       "company": "華盈",
@@ -9918,21 +9933,6 @@
       "evote_end": "2026/05/25",
       "agent": "福邦證券股份有限公司",
       "agent_phone": "(02)2371-1658",
-      "market": ""
-    },
-    {
-      "stock_code": "1584",
-      "company": "精剛",
-      "souvenir": "順暢益生菌",
-      "latest_buy_date": "2026/03/25",
-      "proxy_deadline": "",
-      "meeting_date": "2026/05/28",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/04/28",
-      "evote_end": "2026/05/25",
-      "agent": "凱基證券股份有限公司",
-      "agent_phone": "02-23892999",
       "market": ""
     },
     {
