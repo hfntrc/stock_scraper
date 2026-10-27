@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-10-26 04:43:28",
+  "updated_at": "2026-10-27 05:00:38",
   "year": 2026,
   "total": 776,
   "data": [
+    {
+      "stock_code": "3059",
+      "company": "華晶科",
+      "souvenir": "環保可拆手把不鏽鋼迷你牛奶深鍋",
+      "latest_buy_date": "2026/04/22",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/23",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/23",
+      "evote_end": "2026/06/20",
+      "agent": "永豐金證券股份有限公司",
+      "agent_phone": "02-2381-6288",
+      "market": ""
+    },
     {
       "stock_code": "7955",
       "company": "車麗屋",
@@ -1263,21 +1278,6 @@
       "evote_end": "2026/05/23",
       "agent": "群益金鼎證券(股)公司股務代理部",
       "agent_phone": "27023999",
-      "market": ""
-    },
-    {
-      "stock_code": "3059",
-      "company": "華晶科",
-      "souvenir": "環保可拆手把不鏽鋼迷你牛奶深鍋",
-      "latest_buy_date": "2026/04/22",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/23",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/23",
-      "evote_end": "2026/06/20",
-      "agent": "永豐金證券股份有限公司",
-      "agent_phone": "02-2381-6288",
       "market": ""
     },
     {
