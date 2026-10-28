@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-10-27 05:00:38",
+  "updated_at": "2026-10-28 05:38:35",
   "year": 2026,
-  "total": 776,
+  "total": 777,
   "data": [
+    {
+      "stock_code": "3349",
+      "company": "寶德",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/11/09",
+      "proxy_deadline": "",
+      "meeting_date": "2026/12/11",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/11/26",
+      "evote_end": "2026/12/08",
+      "agent": "富邦綜合證券(股)公司股務代理部",
+      "agent_phone": "02-23611300",
+      "market": ""
+    },
     {
       "stock_code": "3059",
       "company": "華晶科",
