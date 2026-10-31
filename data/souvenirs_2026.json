@@ -1,10 +1,40 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-10-30 05:44:16",
+  "updated_at": "2026-10-31 05:37:27",
   "year": 2026,
-  "total": 777,
+  "total": 778,
   "data": [
+    {
+      "stock_code": "3520",
+      "company": "華盈",
+      "souvenir": "歐風精華皂(屆時如數量不足，將以等值商品替代之)",
+      "latest_buy_date": "2026/10/15",
+      "proxy_deadline": "",
+      "meeting_date": "2026/11/18",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/11/03",
+      "evote_end": "2026/11/15",
+      "agent": "國票綜合證券(股)公司股務代理部",
+      "agent_phone": "02-2528-8988",
+      "market": ""
+    },
+    {
+      "stock_code": "3526",
+      "company": "凡甲",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/11/13",
+      "proxy_deadline": "",
+      "meeting_date": "2026/12/17",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/12/02",
+      "evote_end": "2026/12/14",
+      "agent": "元大證券(股)公司股務代理部",
+      "agent_phone": "02-25865859",
+      "market": ""
+    },
     {
       "stock_code": "5210",
       "company": "寶碩",
@@ -93,21 +123,6 @@
       "evote_end": "2026/05/25",
       "agent": "凱基證券股份有限公司",
       "agent_phone": "02-23892999",
-      "market": ""
-    },
-    {
-      "stock_code": "3520",
-      "company": "華盈",
-      "souvenir": "歐風精華皂(屆時如數量不足，將以等值商品替代之)",
-      "latest_buy_date": "2026/10/15",
-      "proxy_deadline": "",
-      "meeting_date": "2026/11/18",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/11/03",
-      "evote_end": "2026/11/15",
-      "agent": "國票綜合證券(股)公司股務代理部",
-      "agent_phone": "02-2528-8988",
       "market": ""
     },
     {
