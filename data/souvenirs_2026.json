@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-11-02 05:58:42",
+  "updated_at": "2026-11-03 06:44:55",
   "year": 2026,
   "total": 778,
   "data": [
+    {
+      "stock_code": "2605",
+      "company": "新興",
+      "souvenir": "玻璃沙拉碗",
+      "latest_buy_date": "2026/04/08",
+      "proxy_deadline": "",
+      "meeting_date": "2026/06/11",
+      "meeting_type": "常會",
+      "is_evote": true,
+      "evote_start": "2026/05/12",
+      "evote_end": "2026/06/08",
+      "agent": "中國信託商業銀行代理部",
+      "agent_phone": "02-66365566",
+      "market": ""
+    },
     {
       "stock_code": "3520",
       "company": "華盈",
@@ -693,21 +708,6 @@
       "evote_end": "2026/07/25",
       "agent": "台新綜合證券(股)公司股務代理部",
       "agent_phone": "(02)25048125",
-      "market": ""
-    },
-    {
-      "stock_code": "2605",
-      "company": "新興",
-      "souvenir": "玻璃沙拉碗",
-      "latest_buy_date": "2026/04/08",
-      "proxy_deadline": "",
-      "meeting_date": "2026/06/11",
-      "meeting_type": "常會",
-      "is_evote": true,
-      "evote_start": "2026/05/12",
-      "evote_end": "2026/06/08",
-      "agent": "中國信託商業銀行代理部",
-      "agent_phone": "02-66365566",
       "market": ""
     },
     {
