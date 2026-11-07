@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-11-06 06:39:02",
+  "updated_at": "2026-11-07 05:55:31",
   "year": 2026,
-  "total": 778,
+  "total": 779,
   "data": [
+    {
+      "stock_code": "5346",
+      "company": "力晶",
+      "souvenir": "漢堡王商品抵用券1088",
+      "latest_buy_date": "2026/10/21",
+      "proxy_deadline": "",
+      "meeting_date": "2026/11/25",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/11/10",
+      "evote_end": "2026/11/22",
+      "agent": "",
+      "agent_phone": "",
+      "market": ""
+    },
     {
       "stock_code": "3543",
       "company": "州巧",
