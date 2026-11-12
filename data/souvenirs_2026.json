@@ -1,10 +1,40 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-11-11 06:10:45",
+  "updated_at": "2026-11-12 07:06:39",
   "year": 2026,
-  "total": 779,
+  "total": 781,
   "data": [
+    {
+      "stock_code": "3540",
+      "company": "曜越",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/11/25",
+      "proxy_deadline": "",
+      "meeting_date": "2026/12/28",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/12/12",
+      "evote_end": "2026/12/25",
+      "agent": "永豐金證券股份有限公司",
+      "agent_phone": "02-2381-6288",
+      "market": ""
+    },
+    {
+      "stock_code": "1591",
+      "company": "駿吉-KY",
+      "souvenir": "(開會28日前再行公告)",
+      "latest_buy_date": "2026/11/26",
+      "proxy_deadline": "",
+      "meeting_date": "2026/12/30",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/12/15",
+      "evote_end": "2026/12/27",
+      "agent": "元大證券股份有限公司股務代理部",
+      "agent_phone": "02 2586-5859",
+      "market": ""
+    },
     {
       "stock_code": "5346",
       "company": "力晶",
