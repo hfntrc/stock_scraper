@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-11-13 06:40:14",
+  "updated_at": "2026-11-14 06:16:43",
   "year": 2026,
   "total": 782,
   "data": [
+    {
+      "stock_code": "3526",
+      "company": "凡甲",
+      "souvenir": "蜂王洋甘菊舒緩潤膚皂兩入盒",
+      "latest_buy_date": "2026/11/13",
+      "proxy_deadline": "",
+      "meeting_date": "2026/12/17",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/12/02",
+      "evote_end": "2026/12/14",
+      "agent": "元大證券(股)公司股務代理部",
+      "agent_phone": "02-25865859",
+      "market": ""
+    },
     {
       "stock_code": "1449",
       "company": "佳和",
@@ -123,21 +138,6 @@
       "evote_end": "2026/11/15",
       "agent": "國票綜合證券(股)公司股務代理部",
       "agent_phone": "02-2528-8988",
-      "market": ""
-    },
-    {
-      "stock_code": "3526",
-      "company": "凡甲",
-      "souvenir": "(開會28日前再行公告)",
-      "latest_buy_date": "2026/11/13",
-      "proxy_deadline": "",
-      "meeting_date": "2026/12/17",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/12/02",
-      "evote_end": "2026/12/14",
-      "agent": "元大證券(股)公司股務代理部",
-      "agent_phone": "02-25865859",
       "market": ""
     },
     {
