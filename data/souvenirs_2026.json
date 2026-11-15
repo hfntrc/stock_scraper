@@ -1,10 +1,25 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-11-14 06:16:43",
+  "updated_at": "2026-11-15 06:24:26",
   "year": 2026,
   "total": 782,
   "data": [
+    {
+      "stock_code": "3543",
+      "company": "州巧",
+      "souvenir": "香皂",
+      "latest_buy_date": "2026/10/28",
+      "proxy_deadline": "",
+      "meeting_date": "2026/12/01",
+      "meeting_type": "臨時",
+      "is_evote": true,
+      "evote_start": "2026/11/14",
+      "evote_end": "2026/11/28",
+      "agent": "福邦證券(股)公司",
+      "agent_phone": "(02)2371-1658",
+      "market": ""
+    },
     {
       "stock_code": "3526",
       "company": "凡甲",
@@ -93,21 +108,6 @@
       "evote_end": "2026/12/06",
       "agent": "元大證券(股)公司股務代理部",
       "agent_phone": "(02)2586-5859",
-      "market": ""
-    },
-    {
-      "stock_code": "3543",
-      "company": "州巧",
-      "souvenir": "香皂",
-      "latest_buy_date": "2026/10/28",
-      "proxy_deadline": "",
-      "meeting_date": "2026/12/01",
-      "meeting_type": "臨時",
-      "is_evote": true,
-      "evote_start": "2026/11/14",
-      "evote_end": "2026/11/28",
-      "agent": "福邦證券(股)公司",
-      "agent_phone": "(02)2371-1658",
       "market": ""
     },
     {
