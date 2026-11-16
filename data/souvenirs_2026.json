@@ -1,7 +1,7 @@
 {
   "source": "股代網 gooddie.tw",
   "url": "https://www.gooddie.tw/stock/meeting/2026",
-  "updated_at": "2026-11-15 06:24:26",
+  "updated_at": "2026-11-16 06:23:09",
   "year": 2026,
   "total": 782,
   "data": [
@@ -128,7 +128,7 @@
     {
       "stock_code": "3520",
       "company": "華盈",
-      "souvenir": "歐風精華皂(屆時如數量不足，將以等值商品替代之)",
+      "souvenir": "歐風精華皂",
       "latest_buy_date": "2026/10/15",
       "proxy_deadline": "",
       "meeting_date": "2026/11/18",
